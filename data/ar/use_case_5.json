@@ -1,0 +1,527 @@
+[
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "coverage_check",
+    "content": "التحقق من تغطية المنطقة مطلوب",
+    "tags": ["5g", "ثابت", "تغطية", "متطلبات"],
+    "metadata": {
+      "requirement": "coverage_check",
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "payment_options",
+    "content": "الدفع مقدماً لـ 3 أو 6 أو 12 شهر",
+    "tags": ["5g", "ثابت", "دفع", "مقدم"],
+    "metadata": {
+      "payment_options_months": [3, 6, 12],
+      "payment_type": "advance"
+    }
+  },
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "engagement_periods",
+    "content": "الالتزام: 12 أو 24 شهر",
+    "tags": ["5g", "ثابت", "التزام"],
+    "metadata": {
+      "engagement_options_months": [12, 24]
+    }
+  },
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "plan_30mbps_12m",
+    "content": "فيكس جديد 5G 30 ميجابت/ث: 59.9 د.ت/شهرياً، التزام 12 شهر",
+    "tags": ["5g", "ثابت", "30ميجابت", "12شهر"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 59.9,
+      "engagement_months": 12,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "plan_50mbps_12m",
+    "content": "فيكس جديد 5G 50 ميجابت/ث: 69.9 د.ت/شهرياً، التزام 12 شهر",
+    "tags": ["5g", "ثابت", "50ميجابت", "12شهر"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 69.9,
+      "engagement_months": 12,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "plan_100mbps_12m",
+    "content": "فيكس جديد 5G 100 ميجابت/ث: 110.9 د.ت/شهرياً، التزام 12 شهر",
+    "tags": ["5g", "ثابت", "100ميجابت", "12شهر"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 110.9,
+      "engagement_months": 12,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "plan_30mbps_24m",
+    "content": "فيكس جديد 5G 30 ميجابت/ث: 55.9 د.ت/شهرياً، التزام 24 شهر",
+    "tags": ["5g", "ثابت", "30ميجابت", "24شهر"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 55.9,
+      "engagement_months": 24,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "plan_50mbps_24m",
+    "content": "فيكس جديد 5G 50 ميجابت/ث: 64.9 د.ت/شهرياً، التزام 24 شهر",
+    "tags": ["5g", "ثابت", "50ميجابت", "24شهر"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 64.9,
+      "engagement_months": 24,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "plan_100mbps_24m",
+    "content": "فيكس جديد 5G 100 ميجابت/ث: 99.9 د.ت/شهرياً، التزام 24 شهر",
+    "tags": ["5g", "ثابت", "100ميجابت", "24شهر"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 99.9,
+      "engagement_months": 24,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "فيكس جديد 5G",
+    "chunk_id": "voice_option",
+    "content": "خيار الصوت: الدقيقة تُحتسب بـ 45 مليم محلياً",
+    "tags": ["5g", "ثابت", "صوت", "خيار"],
+    "metadata": {
+      "voice_rate_millimes": 45,
+      "voice_rate_tnd": 0.045,
+      "call_type": "local"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_coverage",
+    "content": "التحقق من تغطية VDSL للمنطقة مطلوب",
+    "tags": ["vdsl", "بوكس", "تغطية", "متطلبات"],
+    "metadata": {
+      "requirement": "coverage_check",
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_engagement",
+    "content": "VDSL Box: التزام 12 شهر",
+    "tags": ["vdsl", "بوكس", "التزام"],
+    "metadata": {
+      "engagement_months": 12,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_installation",
+    "content": "VDSL Box: رسوم التركيب 39.9 د.ت",
+    "tags": ["vdsl", "بوكس", "تركيب", "رسوم"],
+    "metadata": {
+      "installation_fee_tnd": 39.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_20mbps",
+    "content": "VDSL Box 20 ميجابت/ث: 48.9 د.ت/شهرياً",
+    "tags": ["vdsl", "بوكس", "20ميجابت", "تعرفة"],
+    "metadata": {
+      "speed_mbps": 20,
+      "monthly_price_tnd": 48.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_30mbps",
+    "content": "VDSL Box 30 ميجابت/ث: 55.9 د.ت/شهرياً",
+    "tags": ["vdsl", "بوكس", "30ميجابت", "تعرفة"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 55.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_50mbps",
+    "content": "VDSL Box 50 ميجابت/ث: 64.9 د.ت/شهرياً",
+    "tags": ["vdsl", "بوكس", "50ميجابت", "تعرفة"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 64.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_100mbps",
+    "content": "VDSL Box 100 ميجابت/ث: 99.9 د.ت/شهرياً",
+    "tags": ["vdsl", "بوكس", "100ميجابت", "تعرفة"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 99.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_billing",
+    "content": "VDSL Box: الفاتورة ترسل تلقائياً كل شهر",
+    "tags": ["vdsl", "بوكس", "فوترة"],
+    "metadata": {
+      "billing": "automatic_monthly"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_coverage",
+    "content": "التحقق من تغطية الألياف البصرية للمنطقة مطلوب",
+    "tags": ["فايبر", "بوكس", "تغطية", "متطلبات"],
+    "metadata": {
+      "requirement": "coverage_check",
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_installation",
+    "content": "Fibre Box: رسوم التوصيل 40 د.ت",
+    "tags": ["فايبر", "بوكس", "تركيب", "رسوم"],
+    "metadata": {
+      "installation_fee_tnd": 40,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_engagement",
+    "content": "Fibre Box: التزام 12 أو 24 شهر",
+    "tags": ["فايبر", "بوكس", "التزام"],
+    "metadata": {
+      "engagement_options_months": [12, 24],
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_30mbps_12m",
+    "content": "Fibre Box 30 ميجابت/ث: 59.9 د.ت/شهرياً، التزام 12 شهر",
+    "tags": ["فايبر", "بوكس", "30ميجابت", "12شهر"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 59.9,
+      "engagement_months": 12,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_50mbps_12m",
+    "content": "Fibre Box 50 ميجابت/ث: 69.9 د.ت/شهرياً، التزام 12 شهر",
+    "tags": ["فايبر", "بوكس", "50ميجابت", "12شهر"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 69.9,
+      "engagement_months": 12,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_100mbps_12m",
+    "content": "Fibre Box 100 ميجابت/ث: 69.9 د.ت/شهرياً، التزام 12 شهر",
+    "tags": ["فايبر", "بوكس", "100ميجابت", "12شهر"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 69.9,
+      "engagement_months": 12,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_30mbps_24m",
+    "content": "Fibre Box 30 ميجابت/ث: 55.9 د.ت/شهرياً، التزام 24 شهر",
+    "tags": ["فايبر", "بوكس", "30ميجابت", "24شهر"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 55.9,
+      "engagement_months": 24,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_50mbps_24m",
+    "content": "Fibre Box 50 ميجابت/ث: 64.9 د.ت/شهرياً، التزام 24 شهر",
+    "tags": ["فايبر", "بوكس", "50ميجابت", "24شهر"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 64.9,
+      "engagement_months": 24,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_100mbps_24m",
+    "content": "Fibre Box 100 ميجابت/ث: 64.9 د.ت/شهرياً، التزام 24 شهر",
+    "tags": ["فايبر", "بوكس", "100ميجابت", "24شهر"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 64.9,
+      "engagement_months": 24,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_promotion",
+    "content": "عرض Fibre Box: من 1 يونيو 2025 إلى 31 أغسطس 2025",
+    "tags": ["فايبر", "بوكس", "عرض", "تاريخ"],
+    "metadata": {
+      "promotion_start": "2025-06-01",
+      "promotion_end": "2025-08-31"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_voice_option",
+    "content": "Fibre Box: خيار خط صوت ثابت مدفوع مسبقاً، الدقيقة 45 مليم محلياً",
+    "tags": ["فايبر", "بوكس", "صوت", "خيار"],
+    "metadata": {
+      "voice_type": "prepaid",
+      "voice_rate_millimes": 45,
+      "voice_rate_tnd": 0.045,
+      "call_type": "local"
+    }
+  },
+  {
+    "service": "4G Box",
+    "chunk_id": "4g_box_200go",
+    "content": "4G Box مسبق 200 جيجا: 169 د.ت، صالحة 120 يوم",
+    "tags": ["4g", "بوكس", "مدفوع_مسبقاً", "200جب"],
+    "metadata": {
+      "price_tnd": 169,
+      "data_gb": 200,
+      "validity_days": 120,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "4G Box",
+    "chunk_id": "4g_box_100go",
+    "content": "4G Box مسبق 100 جيجا: 129 د.ت، صالحة 60 يوم",
+    "tags": ["4g", "بوكس", "مدفوع_مسبقاً", "100جب"],
+    "metadata": {
+      "price_tnd": 129,
+      "data_gb": 100,
+      "validity_days": 60,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "4G Box",
+    "chunk_id": "4g_box_purchase_channels",
+    "content": "شراء 4G Box عبر eddenyalive.com أو متجر أوريدو أو My Ooredoo",
+    "tags": ["4g", "بوكس", "شراء", "قنوات"],
+    "metadata": {
+      "purchase_channels": ["eddenyalive.com", "boutique_ooredoo", "my_ooredoo"]
+    }
+  },
+  {
+    "service": "باقات الإنترنت",
+    "chunk_id": "flexi_4go",
+    "content": "فليكسي 4 جيجا: 10 د.ت، صالحة 30 يوم",
+    "tags": ["باقة", "إنترنت", "فليكسي", "4جب"],
+    "metadata": {
+      "price_tnd": 10,
+      "data_gb": 4,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "باقات الإنترنت",
+    "chunk_id": "flexi_8go",
+    "content": "فليكسي 8 جيجا: 20 د.ت، صالحة 30 يوم",
+    "tags": ["باقة", "إنترنت", "فليكسي", "8جب"],
+    "metadata": {
+      "price_tnd": 20,
+      "data_gb": 8,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "باقات الإنترنت",
+    "chunk_id": "flexi_30go",
+    "content": "فليكسي 30 جيجا: 36 د.ت، صالحة 30 يوم",
+    "tags": ["باقة", "إنترنت", "فليكسي", "30جب"],
+    "metadata": {
+      "price_tnd": 36,
+      "data_gb": 30,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "باقات الإنترنت",
+    "chunk_id": "flexi_55go",
+    "content": "فليكسي 55 جيجا: 55 د.ت، صالحة 55 يوم",
+    "tags": ["باقة", "إنترنت", "فليكسي", "55جب"],
+    "metadata": {
+      "price_tnd": 55,
+      "data_gb": 55,
+      "validity_days": 55
+    }
+  },
+  {
+    "service": "باقات الإنترنت",
+    "chunk_id": "flexi_100go",
+    "content": "فليكسي 100 جيجا: 72 د.ت، صالحة 90 يوم",
+    "tags": ["باقة", "إنترنت", "فليكسي", "100جب"],
+    "metadata": {
+      "price_tnd": 72,
+      "data_gb": 100,
+      "validity_days": 90
+    }
+  },
+  {
+    "service": "باقات الإنترنت",
+    "chunk_id": "forfait_tracking",
+    "content": "تتبع الباقات عبر My Ooredoo أو #124* أو eddenyalive.com",
+    "tags": ["باقة", "تتبع", "متابعة"],
+    "metadata": {
+      "tracking_channels": ["my_ooredoo", "*124#", "eddenyalive.com"]
+    }
+  },
+  {
+    "service": "باقات الإنترنت",
+    "chunk_id": "kado_net_option",
+    "content": "خيار: إهداء باقة عبر KADO-Net",
+    "tags": ["باقة", "هدية", "كادو"],
+    "metadata": {
+      "gift_option": "KADO-Net"
+    }
+  },
+  {
+    "service": "عرض فلاش",
+    "chunk_id": "flash_bonus",
+    "content": "فلاش: بونص 100% على التعبئة ابتداءً من 1 د.ت أيام الاثنين والجمعة",
+    "tags": ["فلاش", "بونص", "تعبئة"],
+    "metadata": {
+      "bonus_percentage": 100,
+      "minimum_recharge_tnd": 1,
+      "bonus_days": ["اثنين", "جمعة"]
+    }
+  },
+  {
+    "service": "عرض فلاش",
+    "chunk_id": "flash_bonus_validity",
+    "content": "فلاش: البونص صالح 10 أيام",
+    "tags": ["فلاش", "بونص", "صلاحية"],
+    "metadata": {
+      "bonus_validity_days": 10
+    }
+  },
+  {
+    "service": "عرض فلاش",
+    "chunk_id": "flash_minute_price",
+    "content": "فلاش: سعر الدقيقة 90 مليم إلى جميع الشبكات",
+    "tags": ["فلاش", "تعرفة", "دقيقة"],
+    "metadata": {
+      "minute_rate_millimes": 90,
+      "minute_rate_tnd": 0.090,
+      "coverage": "all_operators"
+    }
+  },
+  {
+    "service": "عرض فلاش",
+    "chunk_id": "flash_line_price",
+    "content": "فلاش: سعر شراء الخط 2 د.ت",
+    "tags": ["فلاش", "خط", "سعر"],
+    "metadata": {
+      "line_price_tnd": 2
+    }
+  },
+  {
+    "service": "عرض فلاش",
+    "chunk_id": "flash_requirements",
+    "content": "فلاش: بطاقة هوية أصلية مطلوبة، عقد موقع من العميل",
+    "tags": ["فلاش", "وثائق", "اشتراك"],
+    "metadata": {
+      "required_documents": ["original_cin", "signed_contract"]
+    }
+  },
+  {
+    "service": "عرض فلاش",
+    "chunk_id": "flash_restrictions",
+    "content": "فلاش: البونص غير محدود، تحويل الرصيد غير ممكن",
+    "tags": ["فلاش", "بونص", "قيود"],
+    "metadata": {
+      "bonus_cap": null,
+      "balance_transfer": false
+    }
+  },
+  {
+    "service": "عرض DO",
+    "chunk_id": "do_minute_price",
+    "content": "DO: سعر الدقيقة 35 مليم إلى جميع الشبكات",
+    "tags": ["do", "تعرفة", "دقيقة"],
+    "metadata": {
+      "minute_rate_millimes": 35,
+      "minute_rate_tnd": 0.035,
+      "coverage": "all_operators"
+    }
+  },
+  {
+    "service": "عرض DO",
+    "chunk_id": "do_simulator",
+    "content": "DO: محاكي لباقات الإنترنت و/أو المكالمات حسب الاحتياجات",
+    "tags": ["do", "محاكي", "باقات"],
+    "metadata": {
+      "features": ["simulator", "customization"]
+    }
+  },
+  {
+    "service": "عرض DO",
+    "chunk_id": "do_line_price",
+    "content": "DO: سعر شراء الخط 2 د.ت",
+    "tags": ["do", "خط", "سعر"],
+    "metadata": {
+      "line_price_tnd": 2
+    }
+  },
+  {
+    "service": "عرض DO",
+    "chunk_id": "do_support",
+    "content": "DO: مساعدة رقمية 100% عبر واتساب، ماسنجر، دردشة حية، الأسئلة الشائعة",
+    "tags": ["do", "دعم", "رقمي"],
+    "metadata": {
+      "support_channels": ["whatsapp", "messenger", "live_chat", "faq"],
+      "support_type": "100_percent_digital"
+    }
+  }
+]

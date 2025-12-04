@@ -1,0 +1,544 @@
+[
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_pre_type",
+    "content": "MIFI 4G Prepaid: No commitment",
+    "tags": ["mifi", "4g", "prepaid", "commitment"],
+    "metadata": {
+      "technology": "4G",
+      "payment_type": "prepaid",
+      "engagement": false
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_pre_pack_99",
+    "content": "MIFI 4G Pre 99 Pack: 99 TND, 80 GB data, 2 months validity, no throttling",
+    "tags": ["mifi", "4g", "prepaid", "pack", "99dt"],
+    "metadata": {
+      "price_tnd": 99,
+      "data_gb": 80,
+      "validity_months": 2,
+      "speed_limit": null,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_pre_pack_129",
+    "content": "MIFI 4G Pre 129 Pack: 129 TND, 150 GB data, 3 months validity, no throttling",
+    "tags": ["mifi", "4g", "prepaid", "pack", "129dt"],
+    "metadata": {
+      "price_tnd": 129,
+      "data_gb": 150,
+      "validity_months": 3,
+      "speed_limit": null,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_pre_pack_149",
+    "content": "MIFI 4G Pre 149 Pack: 149 TND, 200 GB data, 3 months validity, no throttling",
+    "tags": ["mifi", "4g", "prepaid", "pack", "149dt"],
+    "metadata": {
+      "price_tnd": 149,
+      "data_gb": 200,
+      "validity_months": 3,
+      "speed_limit": null,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_pre_pack_252",
+    "content": "MIFI 4G Pre 252 Pack: 252 TND, 500 GB data, 4 months validity, no throttling",
+    "tags": ["mifi", "4g", "prepaid", "pack", "252dt"],
+    "metadata": {
+      "price_tnd": 252,
+      "data_gb": 500,
+      "validity_months": 4,
+      "speed_limit": null,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_post_type",
+    "content": "MIFI 4G Postpaid: 12 months commitment",
+    "tags": ["mifi", "4g", "postpaid", "commitment"],
+    "metadata": {
+      "technology": "4G",
+      "payment_type": "postpaid",
+      "engagement_months": 12
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_post_pack_46",
+    "content": "MIFI 4G Post 46.2 Pack: Acquisition 94 TND, 42 GB data, monthly fee 46.2 TND, throttled to 1 Mbps",
+    "tags": ["mifi", "4g", "postpaid", "pack", "46dt"],
+    "metadata": {
+      "acquisition_price_tnd": 94,
+      "monthly_fee_tnd": 46.2,
+      "data_gb": 42,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_post_pack_55",
+    "content": "MIFI 4G Post 55 Pack: Acquisition 112 TND, 55 GB data, monthly fee 55 TND, throttled to 1 Mbps",
+    "tags": ["mifi", "4g", "postpaid", "pack", "55dt"],
+    "metadata": {
+      "acquisition_price_tnd": 112,
+      "monthly_fee_tnd": 55,
+      "data_gb": 55,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_post_pack_72",
+    "content": "MIFI 4G Post 72 Pack: Acquisition 146 TND, 72 GB data, monthly fee 72 TND, throttled to 1 Mbps",
+    "tags": ["mifi", "4g", "postpaid", "pack", "72dt"],
+    "metadata": {
+      "acquisition_price_tnd": 146,
+      "monthly_fee_tnd": 72,
+      "data_gb": 72,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_post_pack_100",
+    "content": "MIFI 4G Post 100 Pack: Acquisition 202 TND, 100 GB data, monthly fee 100 TND, throttled to 1 Mbps",
+    "tags": ["mifi", "4g", "postpaid", "pack", "100dt"],
+    "metadata": {
+      "acquisition_price_tnd": 202,
+      "monthly_fee_tnd": 100,
+      "data_gb": 100,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_4g_post_pack_250",
+    "content": "MIFI 4G Post 250 Pack: Acquisition 502 TND, 500 GB data, monthly fee 250 TND, throttled to 1 Mbps",
+    "tags": ["mifi", "4g", "postpaid", "pack", "250dt"],
+    "metadata": {
+      "acquisition_price_tnd": 502,
+      "monthly_fee_tnd": 250,
+      "data_gb": 500,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_5g_post_type",
+    "content": "MIFI 5G Postpaid: 24 months commitment",
+    "tags": ["mifi", "5g", "postpaid", "commitment"],
+    "metadata": {
+      "technology": "5G",
+      "payment_type": "postpaid",
+      "engagement_months": 24
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_5g_features",
+    "content": "MIFI 5G: Ultra-fast connectivity, reduced latency, UHD streaming, lag-free gaming, multi-device support",
+    "tags": ["mifi", "5g", "benefits", "features"],
+    "metadata": {
+      "features": ["ultra_fast", "low_latency", "uhd_streaming", "gaming", "multi_device"]
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_5g_post_pack_250",
+    "content": "MIFI 5G Post C&C 250 Pack: Acquisition 502 TND, 500 GB data, monthly fee 250 TND, throttled to 1 Mbps",
+    "tags": ["mifi", "5g", "postpaid", "pack", "250dt"],
+    "metadata": {
+      "acquisition_price_tnd": 502,
+      "monthly_fee_tnd": 250,
+      "data_gb": 500,
+      "speed_limit_mbps": 1,
+      "technology": "5G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_5g_pre_type",
+    "content": "MIFI 5G Prepaid: No commitment",
+    "tags": ["mifi", "5g", "prepaid", "commitment"],
+    "metadata": {
+      "technology": "5G",
+      "payment_type": "prepaid",
+      "engagement": false
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_5g_pre_pack_252",
+    "content": "MIFI 5G Pre 252 Pack: 252 TND, 500 GB data, 120 days validity, no throttling",
+    "tags": ["mifi", "5g", "prepaid", "pack", "252dt"],
+    "metadata": {
+      "price_tnd": 252,
+      "data_gb": 500,
+      "validity_days": 120,
+      "speed_limit": null,
+      "technology": "5G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "discount_recharge_account",
+    "content": "5% discount for payment via recharge account",
+    "tags": ["discount", "payment", "promotion"],
+    "metadata": {
+      "discount_percentage": 5,
+      "payment_method": "recharge_account"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "discount_bank_card",
+    "content": "10% discount for payment by bank card",
+    "tags": ["discount", "payment", "promotion", "card"],
+    "metadata": {
+      "discount_percentage": 10,
+      "payment_method": "bank_card"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "forfait_cumulation_rules",
+    "content": "Additional packages not stackable on single account, each package on dedicated account",
+    "tags": ["package", "accumulation", "rules"],
+    "metadata": {
+      "cumulation_allowed": false,
+      "account_rule": "dedicated_account_per_package"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_pro_25gb",
+    "content": "MIFI Pro 25GB: 25 TND tax-included/month, 25 GB data, throttled to 512 Kbps, 12 months commitment, 4G",
+    "tags": ["mifi", "pro", "business", "25gb"],
+    "metadata": {
+      "monthly_fee_tnd": 25,
+      "data_gb": 25,
+      "speed_limit_kbps": 512,
+      "engagement_months": 12,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_pro_45gb",
+    "content": "MIFI Pro 45GB: 32.2 TND tax-included/month, 45 GB data, throttled to 1 Mbps, 24 months commitment, 4G",
+    "tags": ["mifi", "pro", "business", "45gb"],
+    "metadata": {
+      "monthly_fee_tnd": 32.2,
+      "data_gb": 45,
+      "speed_limit_mbps": 1,
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_pro_75gb",
+    "content": "MIFI Pro 75GB: 53.5 TND tax-included/month, 75 GB data, throttled to 1 Mbps, 24 months commitment, 4G",
+    "tags": ["mifi", "pro", "business", "75gb"],
+    "metadata": {
+      "monthly_fee_tnd": 53.5,
+      "data_gb": 75,
+      "speed_limit_mbps": 1,
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_pro_100gb",
+    "content": "MIFI Pro 100GB: 71.4 TND tax-included/month, 100 GB data, throttled to 1 Mbps, 24 months commitment, 4G",
+    "tags": ["mifi", "pro", "business", "100gb"],
+    "metadata": {
+      "monthly_fee_tnd": 71.4,
+      "data_gb": 100,
+      "speed_limit_mbps": 1,
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_pro_200gb",
+    "content": "MIFI Pro 200GB: 100 TND tax-included/month, 200 GB data, throttled to 1 Mbps or unlimited, 24 months commitment, 4G",
+    "tags": ["mifi", "pro", "business", "200gb"],
+    "metadata": {
+      "monthly_fee_tnd": 100,
+      "data_gb": 200,
+      "speed_limit": "1mbps_or_unlimited",
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_pro_500gb_4g",
+    "content": "MIFI Pro 500GB 4G: 250 TND tax-included/month, 500 GB data, throttled to 1 Mbps or unlimited, 24 months commitment",
+    "tags": ["mifi", "pro", "business", "500gb", "4g"],
+    "metadata": {
+      "monthly_fee_tnd": 250,
+      "data_gb": 500,
+      "speed_limit": "1mbps_or_unlimited",
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "mifi_pro_500gb_5g",
+    "content": "MIFI Pro 500GB 5G: 250 TND tax-included/month, 500 GB data, throttled to 1 Mbps or unlimited, 24 months commitment",
+    "tags": ["mifi", "pro", "business", "500gb", "5g"],
+    "metadata": {
+      "monthly_fee_tnd": 250,
+      "data_gb": 500,
+      "speed_limit": "1mbps_or_unlimited",
+      "engagement_months": 24,
+      "technology": "5G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_1.25gb",
+    "content": "Flexi 1.25 GB: 4.5 TND, 30 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 4.5,
+      "price_5pct_discount": 4.275,
+      "price_10pct_discount": 4.05,
+      "data_gb": 1.25,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_4gb",
+    "content": "Flexi 4 GB: 8.55 TND, 30 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 8.55,
+      "price_5pct_discount": 8.1,
+      "data_gb": 4,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_8gb",
+    "content": "Flexi 8 GB: 13.5 TND, 30 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 13.5,
+      "price_5pct_discount": 12.825,
+      "price_10pct_discount": 12.15,
+      "data_gb": 8,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_25gb",
+    "content": "Flexi 25 GB: 18 TND, 30 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 18,
+      "price_5pct_discount": 17.1,
+      "price_10pct_discount": 16.2,
+      "data_gb": 25,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_30gb",
+    "content": "Flexi 30 GB: 27 TND, 30 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 27,
+      "price_5pct_discount": 25.65,
+      "price_10pct_discount": 24.3,
+      "data_gb": 30,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_55gb",
+    "content": "Flexi 55 GB: 32.5 TND, 30 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 32.5,
+      "price_5pct_discount": 30.875,
+      "price_10pct_discount": 29.25,
+      "data_gb": 55,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_75gb",
+    "content": "Flexi 75 GB: 50 TND, 55 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 50,
+      "price_5pct_discount": 47.5,
+      "price_10pct_discount": 45,
+      "data_gb": 75,
+      "validity_days": 55
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_100gb",
+    "content": "Flexi 100 GB: 61 TND, 60 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 61,
+      "price_5pct_discount": 57.95,
+      "price_10pct_discount": 54.9,
+      "data_gb": 100,
+      "validity_days": 60
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_120gb",
+    "content": "Flexi 120 GB: 65 TND, 90 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 65,
+      "price_5pct_discount": 61.75,
+      "price_10pct_discount": 58.5,
+      "data_gb": 120,
+      "validity_days": 90
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_200gb",
+    "content": "Flexi 200 GB: 78 TND, 90 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 78,
+      "price_5pct_discount": 74.1,
+      "price_10pct_discount": 70.2,
+      "data_gb": 200,
+      "validity_days": 90
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_500gb",
+    "content": "Flexi 500 GB: 90 TND, 120 days validity",
+    "tags": ["flexi", "package", "data", "supplementary"],
+    "metadata": {
+      "price_tnd": 90,
+      "price_5pct_discount": 85.5,
+      "price_10pct_discount": 81,
+      "data_gb": 500,
+      "validity_days": 120
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_1000gb_5months",
+    "content": "Flexi 1000 GB (5 months): 225 TND",
+    "tags": ["flexi", "package", "data", "supplementary", "1tb"],
+    "metadata": {
+      "price_tnd": 225,
+      "price_5pct_discount": 213.75,
+      "price_10pct_discount": 202.5,
+      "data_gb": 1000,
+      "validity_months": 5
+    }
+  },
+  {
+    "service": "MIFI Offer",
+    "type": ["B2C","B2B"],
+    "chunk_id": "flexi_1000gb_annual",
+    "content": "Flexi 1000 GB (365 days): 450 TND",
+    "tags": ["flexi", "package", "data", "supplementary", "1tb", "annual"],
+    "metadata": {
+      "price_tnd": 450,
+      "price_5pct_discount": 427.5,
+      "price_10pct_discount": 405,
+      "data_gb": 1000,
+      "validity_days": 365
+    }
+  }
+]

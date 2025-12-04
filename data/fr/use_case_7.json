@@ -1,0 +1,106 @@
+[
+  {
+    "service": "Holiday SIM",
+    "type": "B2C",
+    "offer_name": "Offre Holiday SIM Basique",
+    "details": {
+      "price_per_minute": "225 millimes",
+      "validity": "Appels vers tous opérateurs fixes et mobiles",
+      "eligibility": "Nouveaux abonnés ou migration",
+      "advantages": [
+        "Prix minute le moins cher du marché",
+        "Forfaits internet via *124# et appels internationaux via *155#",
+        "30% de remise sur appels vers France, Allemagne, Italie, Espagne, Suède, Roumanie, Canada, USA"
+      ]
+    }
+  },
+  {
+    "service": "Holiday SIM",
+    "type": "B2C",
+    "offer_name": "Nouveaux Packs",
+    "packs": [
+      {
+        "price": "10DT",
+        "advantages": {
+          "national_minutes": 30,
+          "international_minutes": 5,
+          "sms": 15,
+          "data": "2 GB",
+          "validity": "15 jours"
+        }
+      },
+      {
+        "price": "20DT",
+        "advantages": {
+          "national_minutes": 60,
+          "international_minutes": 10,
+          "sms": 30,
+          "data": "6.5 GB",
+          "validity": "30 jours"
+        }
+      },
+      {
+        "price": "30DT",
+        "advantages": {
+          "national_minutes": 120,
+          "international_minutes": 20,
+          "sms": 40,
+          "data": "10 GB",
+          "validity": "30 jours"
+        }
+      },
+      {
+        "price": "50DT",
+        "advantages": {
+          "national_minutes": 180,
+          "international_minutes": 30,
+          "sms": 50,
+          "data": "25 GB",
+          "validity": "30 jours"
+        }
+      }
+    ],
+    "activation_code": "*153#",
+    "notes": [
+      "Cumul possible de plusieurs packs",
+      "Pas de renouvellement automatique",
+      "Facturation hors forfait : PAYG"
+    ]
+  },
+  {
+    "service": "Holiday SIM",
+    "type": "B2C",
+    "offer_name": "Option Algérie",
+    "details": {
+      "description": "Appels vers Ooredoo Algérie",
+      "rate": "33 millimes/min",
+      "activation_code": "*155#"
+    }
+  },
+  {
+    "service": "Holiday SIM",
+    "type": "B2C",
+    "offer_name": "Forfait Algérie",
+    "details": {
+      "minutes": 60,
+      "validity": "7 jours",
+      "price": "2 DT",
+      "activation_code": "*155*4#",
+      "advantage": "Prix de la minute = 33 millimes au lieu de 45"
+    }
+  },
+  {
+    "service": "Holiday SIM",
+    "type": "B2C",
+    "offer_name": "Holiday SIM avec Smart pack VID au poste frontalier",
+    "details": {
+      "packs_range": "10DT à 50DT",
+      "advantages": [
+        "Packs internet + appels nationaux et internationaux + SMS",
+        "Cumul possible de plusieurs packs et forfaits",
+        "Catalogue varié avec forfaits internationaux vers Europe, Amérique du Nord, Libye, Algérie"
+      ],
+      "activation_code": "*153#"
+    }
+  }
+]

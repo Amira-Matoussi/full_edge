@@ -1,0 +1,172 @@
+[
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "bonus_percentage",
+    "content": "100% bonus on all top-ups",
+    "tags": ["bonus", "top-up", "promotion"],
+    "metadata": {
+      "bonus_percentage": 100,
+      "type": "offer"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "bonus_days",
+    "content": "Bonus available every Monday and Friday",
+    "tags": ["bonus", "days", "schedule"],
+    "metadata": {
+      "bonus_days": ["monday", "friday"],
+      "frequency": "weekly"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "bonus_minimum_amount",
+    "content": "Bonus applicable from 1 TND top-up",
+    "tags": ["bonus", "top-up", "minimum_amount"],
+    "metadata": {
+      "minimum_recharge_tnd": 1,
+      "currency": "TND"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "standard_minute_price",
+    "content": "Standard call rate: 90 millimes per minute",
+    "tags": ["rate", "minute", "call", "price"],
+    "metadata": {
+      "price_millimes": 90,
+      "price_tnd": 0.090,
+      "unit": "minute",
+      "type": "standard"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "bonus_minute_price",
+    "content": "Reduced rate with bonus: 45 millimes per minute",
+    "tags": ["rate", "minute", "call", "price", "bonus"],
+    "metadata": {
+      "price_millimes": 45,
+      "price_tnd": 0.045,
+      "unit": "minute",
+      "type": "reduced_with_bonus"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "sms_price",
+    "content": "SMS rate: 25 millimes per SMS",
+    "tags": ["rate", "sms", "price", "message"],
+    "metadata": {
+      "price_millimes": 25,
+      "price_tnd": 0.025,
+      "unit": "sms",
+      "type": "standard"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "offer_validity",
+    "content": "Offer valid until November 21, 2025",
+    "tags": ["validity", "date", "expiration"],
+    "metadata": {
+      "validity_end": "2025-11-21",
+      "validity_end_readable": "November 21, 2025"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "bonus_validity_duration",
+    "content": "Each bonus is valid for 10 days",
+    "tags": ["bonus", "validity", "duration"],
+    "metadata": {
+      "validity_days": 10,
+      "validity_type": "bonus"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "bonus_coverage",
+    "content": "Bonus valid to all operators",
+    "tags": ["bonus", "operators", "coverage"],
+    "metadata": {
+      "coverage": "all_operators",
+      "unlimited": true
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "bonus_usage",
+    "content": "Bonus usable for calls and SMS",
+    "tags": ["bonus", "usage", "calls", "sms"],
+    "metadata": {
+      "usage_types": ["calls", "sms"]
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "bonus_tracking_ussd",
+    "content": "Track your bonus: dial *100*5#",
+    "tags": ["tracking", "bonus", "ussd", "code"],
+    "metadata": {
+      "ussd_code": "*100*5#",
+      "action": "track_bonus"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "bonus_tracking_app",
+    "content": "Track your bonus via My Ooredoo app",
+    "tags": ["tracking", "bonus", "app", "mobile"],
+    "metadata": {
+      "app_name": "My Ooredoo",
+      "action": "track_bonus"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "flash_activation_code",
+    "content": "Activate FLASH offer: dial *140*4#",
+    "tags": ["activation", "flash", "ussd", "code"],
+    "metadata": {
+      "ussd_code": "*140*4#",
+      "offer_name": "FLASH",
+      "action": "activate"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "activation_channels",
+    "content": "Offer available via all activation channels",
+    "tags": ["activation", "availability", "channels"],
+    "metadata": {
+      "availability": "all_channels"
+    }
+  },
+  {
+    "service": "Ooredoo Bonus Offer",
+    "type": "B2C",
+    "chunk_id": "activation_eligibility",
+    "content": "FLASH offer accessible to new acquisitions and migrations",
+    "tags": ["activation", "eligibility", "flash"],
+    "metadata": {
+      "eligible_for": ["new_acquisitions", "migrations"],
+      "default_offer": false
+    }
+  }
+]

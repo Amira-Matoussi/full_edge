@@ -1,0 +1,279 @@
+[
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "offer_type",
+    "content": "Offre disponible pour nouveaux abonnés ou suite à migration",
+    "tags": ["type", "éligibilité", "nouveaux"],
+    "metadata": {
+      "eligible_for": ["new_subscribers", "migrations"]
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "minute_price",
+    "content": "Prix minute: 120 millimes vers tous les opérateurs fixes et mobiles",
+    "tags": ["tarif", "minute", "appel", "prix"],
+    "metadata": {
+      "price_millimes": 120,
+      "price_tnd": 0.120,
+      "unit": "minute",
+      "coverage": "all_operators"
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "arabic_menu",
+    "content": "Menu USSD en arabe pour forfaits internationaux et Data",
+    "tags": ["arabe", "menu", "ussd", "langue"],
+    "metadata": {
+      "language": "arabic",
+      "ussd_codes": ["*155#", "*124#"],
+      "features": ["international_packages", "data_packages"]
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "libya_discount",
+    "content": "25% de remise sur appels et SMS vers la Libye",
+    "tags": ["remise", "libye", "international", "promotion"],
+    "metadata": {
+      "discount_percentage": 25,
+      "destination": "Libya",
+      "applicable_to": ["calls", "sms"]
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "libya_call_rate",
+    "content": "Appels vers Libye: 1.088 TND TTC par minute",
+    "tags": ["tarif", "libye", "international", "appel"],
+    "metadata": {
+      "price_tnd": 1.088,
+      "unit": "minute",
+      "destination": "Libya",
+      "tax_included": true
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "libya_sms_rate",
+    "content": "SMS vers Libye: 0.188 TND TTC par SMS",
+    "tags": ["tarif", "libye", "international", "sms"],
+    "metadata": {
+      "price_tnd": 0.188,
+      "unit": "sms",
+      "destination": "Libya",
+      "tax_included": true
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "packs_activation",
+    "content": "Code d'activation pour packs: *153#",
+    "tags": ["activation", "packs", "ussd", "code"],
+    "metadata": {
+      "ussd_code": "*153#",
+      "action": "activate_packs"
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "pack_5dt",
+    "content": "Pack 5 TND: 1H appels nationaux, 10 min internationaux, 1 GB data, 10 SMS, validité 15 jours",
+    "tags": ["pack", "forfait", "5dt", "bundle"],
+    "metadata": {
+      "price_tnd": 5,
+      "national_minutes": 60,
+      "international_minutes": 10,
+      "data_gb": 1,
+      "sms_count": 10,
+      "validity_days": 15
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "pack_20dt",
+    "content": "Pack 20 TND: 2H appels nationaux, 20 min internationaux, 6.5 GB data, 30 SMS, validité 30 jours",
+    "tags": ["pack", "forfait", "20dt", "bundle"],
+    "metadata": {
+      "price_tnd": 20,
+      "national_minutes": 120,
+      "international_minutes": 20,
+      "data_gb": 6.5,
+      "sms_count": 30,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "pack_30dt",
+    "content": "Pack 30 TND: 10 GB data, 40 SMS, validité 30 jours",
+    "tags": ["pack", "forfait", "30dt", "bundle", "data"],
+    "metadata": {
+      "price_tnd": 30,
+      "data_gb": 10,
+      "sms_count": 40,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "pack_50dt",
+    "content": "Pack 50 TND: 3H appels nationaux, 30 min internationaux, 25 GB data, 50 SMS, validité 30 jours",
+    "tags": ["pack", "forfait", "50dt", "bundle"],
+    "metadata": {
+      "price_tnd": 50,
+      "national_minutes": 180,
+      "international_minutes": 30,
+      "data_gb": 25,
+      "sms_count": 50,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "pack_national_calls",
+    "content": "Appels nationaux inclus vers tous les opérateurs",
+    "tags": ["pack", "conditions", "appels", "national"],
+    "metadata": {
+      "call_coverage": "all_national_operators"
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "pack_international_calls",
+    "content": "Appels internationaux vers toutes destinations sauf zone 5 PRS Surtaxé",
+    "tags": ["pack", "conditions", "appels", "international"],
+    "metadata": {
+      "international_coverage": "all_except_zone5_prs",
+      "excluded_zones": ["zone_5_prs_surtaxed"]
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "pack_cumulation",
+    "content": "Cumul possible des packs, validité = valeur la plus éloignée",
+    "tags": ["pack", "cumul", "conditions"],
+    "metadata": {
+      "cumulation_allowed": true,
+      "validity_rule": "longest_validity"
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "pack_auto_renewal",
+    "content": "Renouvellement automatique: Non",
+    "tags": ["pack", "renouvellement", "conditions"],
+    "metadata": {
+      "auto_renewal": false
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "libya_forfait",
+    "content": "Forfait Libye: 25 min appels pour 10 TND, validité 15 jours",
+    "tags": ["forfait", "libye", "international"],
+    "metadata": {
+      "package_name": "Forfait Libye",
+      "price_tnd": 10,
+      "minutes": 25,
+      "validity_days": 15,
+      "destination": "Libya"
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "libya_forfait_activation",
+    "content": "Activation Forfait Libye: *155*11#",
+    "tags": ["activation", "libye", "forfait", "ussd"],
+    "metadata": {
+      "ussd_code": "*155*11#",
+      "package_name": "Forfait Libye"
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "arab_countries_forfait",
+    "content": "Forfait Pays Arabes: 30 min appels pour 10 TND, validité 15 jours",
+    "tags": ["forfait", "pays_arabes", "international"],
+    "metadata": {
+      "package_name": "Forfait Pays Arabe",
+      "price_tnd": 10,
+      "minutes": 30,
+      "validity_days": 15
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "arab_countries_activation",
+    "content": "Activation Forfait Pays Arabes: *155*2#",
+    "tags": ["activation", "pays_arabes", "forfait", "ussd"],
+    "metadata": {
+      "ussd_code": "*155*2#",
+      "package_name": "Forfait Pays Arabe"
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "arab_countries_destinations",
+    "content": "Destinations Pays Arabes: Arabie Saoudite, Turquie, Jordanie, Syrie, UAE, Egypte, Oman, Liban, Iraq, Palestine, Yemen, Qatar, Koweït, Bahreïn",
+    "tags": ["forfait", "pays_arabes", "destinations"],
+    "metadata": {
+      "destinations": ["Saudi_Arabia", "Turkey", "Jordan", "Syria", "UAE", "Egypt", "Oman", "Lebanon", "Iraq", "Palestine", "Yemen", "Qatar", "Kuwait", "Bahrain"]
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "europe_na_forfait",
+    "content": "Forfait Europe & Amérique Nord: 10 min appels pour 1.5 TND, validité jusqu'à minuit",
+    "tags": ["forfait", "europe", "amérique", "international"],
+    "metadata": {
+      "package_name": "Forfait Europe & NA",
+      "price_tnd": 1.5,
+      "minutes": 10,
+      "validity": "until_midnight"
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "europe_na_activation",
+    "content": "Activation Forfait Europe & NA: *155*3#",
+    "tags": ["activation", "europe", "forfait", "ussd"],
+    "metadata": {
+      "ussd_code": "*155*3#",
+      "package_name": "Forfait Europe & NA"
+    }
+  },
+  {
+    "service": "Offre Hadrez",
+    "type": "B2C",
+    "chunk_id": "europe_na_destinations",
+    "content": "Destinations Europe & NA: France, Allemagne, Espagne, Royaume-Uni, Roumanie, Italie, Pays-Bas, Suède",
+    "tags": ["forfait", "europe", "destinations"],
+    "metadata": {
+      "destinations": ["France", "Germany", "Spain", "UK", "Romania", "Italy", "Netherlands", "Sweden"]
+    }
+  }
+]

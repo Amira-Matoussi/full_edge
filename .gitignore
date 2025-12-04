@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env*
+__pycache__/
+recordings/
+public/uploads/
+*.webm
+*.mp3
+*.log
+.DS_Store
+venv/
+dist/

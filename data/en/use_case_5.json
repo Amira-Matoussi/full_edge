@@ -1,0 +1,527 @@
+[
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "coverage_check",
+    "content": "Zone coverage verification required",
+    "tags": ["5g", "fixed", "coverage", "requirements"],
+    "metadata": {
+      "requirement": "coverage_check",
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "payment_options",
+    "content": "Payment 3, 6 or 12 months in advance",
+    "tags": ["5g", "fixed", "payment", "advance"],
+    "metadata": {
+      "payment_options_months": [3, 6, 12],
+      "payment_type": "advance"
+    }
+  },
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "engagement_periods",
+    "content": "Commitment: 12 or 24 months",
+    "tags": ["5g", "fixed", "commitment"],
+    "metadata": {
+      "engagement_options_months": [12, 24]
+    }
+  },
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "plan_30mbps_12m",
+    "content": "Fixed New 5G 30 Mbps: 59.9 TND/month, 12 months commitment",
+    "tags": ["5g", "fixed", "30mbps", "12months"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 59.9,
+      "engagement_months": 12,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "plan_50mbps_12m",
+    "content": "Fixed New 5G 50 Mbps: 69.9 TND/month, 12 months commitment",
+    "tags": ["5g", "fixed", "50mbps", "12months"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 69.9,
+      "engagement_months": 12,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "plan_100mbps_12m",
+    "content": "Fixed New 5G 100 Mbps: 110.9 TND/month, 12 months commitment",
+    "tags": ["5g", "fixed", "100mbps", "12months"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 110.9,
+      "engagement_months": 12,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "plan_30mbps_24m",
+    "content": "Fixed New 5G 30 Mbps: 55.9 TND/month, 24 months commitment",
+    "tags": ["5g", "fixed", "30mbps", "24months"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 55.9,
+      "engagement_months": 24,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "plan_50mbps_24m",
+    "content": "Fixed New 5G 50 Mbps: 64.9 TND/month, 24 months commitment",
+    "tags": ["5g", "fixed", "50mbps", "24months"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 64.9,
+      "engagement_months": 24,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "plan_100mbps_24m",
+    "content": "Fixed New 5G 100 Mbps: 99.9 TND/month, 24 months commitment",
+    "tags": ["5g", "fixed", "100mbps", "24months"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 99.9,
+      "engagement_months": 24,
+      "technology": "5G"
+    }
+  },
+  {
+    "service": "Fixed New 5G",
+    "chunk_id": "voice_option",
+    "content": "Voice option: Minute billed 45 millimes local",
+    "tags": ["5g", "fixed", "voice", "option"],
+    "metadata": {
+      "voice_rate_millimes": 45,
+      "voice_rate_tnd": 0.045,
+      "call_type": "local"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_coverage",
+    "content": "VDSL zone coverage verification required",
+    "tags": ["vdsl", "box", "coverage", "requirements"],
+    "metadata": {
+      "requirement": "coverage_check",
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_engagement",
+    "content": "VDSL Box: 12 months commitment",
+    "tags": ["vdsl", "box", "commitment"],
+    "metadata": {
+      "engagement_months": 12,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_installation",
+    "content": "VDSL Box: Connection fees 39.9 TND",
+    "tags": ["vdsl", "box", "installation", "fees"],
+    "metadata": {
+      "installation_fee_tnd": 39.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_20mbps",
+    "content": "VDSL Box 20 Mbps: 48.9 TND/month",
+    "tags": ["vdsl", "box", "20mbps", "rate"],
+    "metadata": {
+      "speed_mbps": 20,
+      "monthly_price_tnd": 48.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_30mbps",
+    "content": "VDSL Box 30 Mbps: 55.9 TND/month",
+    "tags": ["vdsl", "box", "30mbps", "rate"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 55.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_50mbps",
+    "content": "VDSL Box 50 Mbps: 64.9 TND/month",
+    "tags": ["vdsl", "box", "50mbps", "rate"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 64.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_100mbps",
+    "content": "VDSL Box 100 Mbps: 99.9 TND/month",
+    "tags": ["vdsl", "box", "100mbps", "rate"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 99.9,
+      "technology": "VDSL"
+    }
+  },
+  {
+    "service": "VDSL Box",
+    "chunk_id": "vdsl_billing",
+    "content": "VDSL Box: Bill sent automatically every month",
+    "tags": ["vdsl", "box", "billing"],
+    "metadata": {
+      "billing": "automatic_monthly"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_coverage",
+    "content": "Fibre zone coverage verification required",
+    "tags": ["fibre", "box", "coverage", "requirements"],
+    "metadata": {
+      "requirement": "coverage_check",
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_installation",
+    "content": "Fibre Box: Connection fees 40 TND",
+    "tags": ["fibre", "box", "installation", "fees"],
+    "metadata": {
+      "installation_fee_tnd": 40,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_engagement",
+    "content": "Fibre Box: 12 or 24 months commitment",
+    "tags": ["fibre", "box", "commitment"],
+    "metadata": {
+      "engagement_options_months": [12, 24],
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_30mbps_12m",
+    "content": "Fibre Box 30 Mbps: 59.9 TND/month, 12 months commitment",
+    "tags": ["fibre", "box", "30mbps", "12months"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 59.9,
+      "engagement_months": 12,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_50mbps_12m",
+    "content": "Fibre Box 50 Mbps: 69.9 TND/month, 12 months commitment",
+    "tags": ["fibre", "box", "50mbps", "12months"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 69.9,
+      "engagement_months": 12,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_100mbps_12m",
+    "content": "Fibre Box 100 Mbps: 69.9 TND/month, 12 months commitment",
+    "tags": ["fibre", "box", "100mbps", "12months"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 69.9,
+      "engagement_months": 12,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_30mbps_24m",
+    "content": "Fibre Box 30 Mbps: 55.9 TND/month, 24 months commitment",
+    "tags": ["fibre", "box", "30mbps", "24months"],
+    "metadata": {
+      "speed_mbps": 30,
+      "monthly_price_tnd": 55.9,
+      "engagement_months": 24,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_50mbps_24m",
+    "content": "Fibre Box 50 Mbps: 64.9 TND/month, 24 months commitment",
+    "tags": ["fibre", "box", "50mbps", "24months"],
+    "metadata": {
+      "speed_mbps": 50,
+      "monthly_price_tnd": 64.9,
+      "engagement_months": 24,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_100mbps_24m",
+    "content": "Fibre Box 100 Mbps: 64.9 TND/month, 24 months commitment",
+    "tags": ["fibre", "box", "100mbps", "24months"],
+    "metadata": {
+      "speed_mbps": 100,
+      "monthly_price_tnd": 64.9,
+      "engagement_months": 24,
+      "technology": "Fibre"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_promotion",
+    "content": "Fibre Box promotion: from June 1, 2025 to August 31, 2025",
+    "tags": ["fibre", "box", "promotion", "date"],
+    "metadata": {
+      "promotion_start": "2025-06-01",
+      "promotion_end": "2025-08-31"
+    }
+  },
+  {
+    "service": "Fibre Box",
+    "chunk_id": "fibre_voice_option",
+    "content": "Fibre Box: Prepaid fixed voice line option, minute 45 millimes local",
+    "tags": ["fibre", "box", "voice", "option"],
+    "metadata": {
+      "voice_type": "prepaid",
+      "voice_rate_millimes": 45,
+      "voice_rate_tnd": 0.045,
+      "call_type": "local"
+    }
+  },
+  {
+    "service": "4G Box",
+    "chunk_id": "4g_box_200go",
+    "content": "4G Box Pre 200 GB: 169 TND, 120 days validity",
+    "tags": ["4g", "box", "prepaid", "200gb"],
+    "metadata": {
+      "price_tnd": 169,
+      "data_gb": 200,
+      "validity_days": 120,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "4G Box",
+    "chunk_id": "4g_box_100go",
+    "content": "4G Box Pre 100 GB: 129 TND, 60 days validity",
+    "tags": ["4g", "box", "prepaid", "100gb"],
+    "metadata": {
+      "price_tnd": 129,
+      "data_gb": 100,
+      "validity_days": 60,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "4G Box",
+    "chunk_id": "4g_box_purchase_channels",
+    "content": "4G Box purchase via eddenyalive.com, Ooredoo store or My Ooredoo",
+    "tags": ["4g", "box", "purchase", "channels"],
+    "metadata": {
+      "purchase_channels": ["eddenyalive.com", "boutique_ooredoo", "my_ooredoo"]
+    }
+  },
+  {
+    "service": "Internet Packages",
+    "chunk_id": "flexi_4go",
+    "content": "Flexi 4 GB: 10 TND, 30 days validity",
+    "tags": ["package", "internet", "flexi", "4gb"],
+    "metadata": {
+      "price_tnd": 10,
+      "data_gb": 4,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "Internet Packages",
+    "chunk_id": "flexi_8go",
+    "content": "Flexi 8 GB: 20 TND, 30 days validity",
+    "tags": ["package", "internet", "flexi", "8gb"],
+    "metadata": {
+      "price_tnd": 20,
+      "data_gb": 8,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "Internet Packages",
+    "chunk_id": "flexi_30go",
+    "content": "Flexi 30 GB: 36 TND, 30 days validity",
+    "tags": ["package", "internet", "flexi", "30gb"],
+    "metadata": {
+      "price_tnd": 36,
+      "data_gb": 30,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "Internet Packages",
+    "chunk_id": "flexi_55go",
+    "content": "Flexi 55 GB: 55 TND, 55 days validity",
+    "tags": ["package", "internet", "flexi", "55gb"],
+    "metadata": {
+      "price_tnd": 55,
+      "data_gb": 55,
+      "validity_days": 55
+    }
+  },
+  {
+    "service": "Internet Packages",
+    "chunk_id": "flexi_100go",
+    "content": "Flexi 100 GB: 72 TND, 90 days validity",
+    "tags": ["package", "internet", "flexi", "100gb"],
+    "metadata": {
+      "price_tnd": 72,
+      "data_gb": 100,
+      "validity_days": 90
+    }
+  },
+  {
+    "service": "Internet Packages",
+    "chunk_id": "forfait_tracking",
+    "content": "Package tracking via My Ooredoo, *124# or eddenyalive.com",
+    "tags": ["package", "tracking", "monitoring"],
+    "metadata": {
+      "tracking_channels": ["my_ooredoo", "*124#", "eddenyalive.com"]
+    }
+  },
+  {
+    "service": "Internet Packages",
+    "chunk_id": "kado_net_option",
+    "content": "Option: Gift package via KADO-Net",
+    "tags": ["package", "gift", "kado"],
+    "metadata": {
+      "gift_option": "KADO-Net"
+    }
+  },
+  {
+    "service": "Flash Offer",
+    "chunk_id": "flash_bonus",
+    "content": "Flash: 100% Bonus on top-up from 1 TND Mondays and Fridays",
+    "tags": ["flash", "bonus", "top-up"],
+    "metadata": {
+      "bonus_percentage": 100,
+      "minimum_recharge_tnd": 1,
+      "bonus_days": ["monday", "friday"]
+    }
+  },
+  {
+    "service": "Flash Offer",
+    "chunk_id": "flash_bonus_validity",
+    "content": "Flash: Bonus valid for 10 days",
+    "tags": ["flash", "bonus", "validity"],
+    "metadata": {
+      "bonus_validity_days": 10
+    }
+  },
+  {
+    "service": "Flash Offer",
+    "chunk_id": "flash_minute_price",
+    "content": "Flash: Minute price 90 millimes to all operators",
+    "tags": ["flash", "rate", "minute"],
+    "metadata": {
+      "minute_rate_millimes": 90,
+      "minute_rate_tnd": 0.090,
+      "coverage": "all_operators"
+    }
+  },
+  {
+    "service": "Flash Offer",
+    "chunk_id": "flash_line_price",
+    "content": "Flash: Line purchase price 2 TND",
+    "tags": ["flash", "line", "price"],
+    "metadata": {
+      "line_price_tnd": 2
+    }
+  },
+  {
+    "service": "Flash Offer",
+    "chunk_id": "flash_requirements",
+    "content": "Flash: Original ID required, contract signed by customer",
+    "tags": ["flash", "documents", "subscription"],
+    "metadata": {
+      "required_documents": ["original_cin", "signed_contract"]
+    }
+  },
+  {
+    "service": "Flash Offer",
+    "chunk_id": "flash_restrictions",
+    "content": "Flash: Unlimited bonus, balance transfer not possible",
+    "tags": ["flash", "bonus", "restrictions"],
+    "metadata": {
+      "bonus_cap": null,
+      "balance_transfer": false
+    }
+  },
+  {
+    "service": "DO Offer",
+    "chunk_id": "do_minute_price",
+    "content": "DO: Minute price 35 millimes to all operators",
+    "tags": ["do", "rate", "minute"],
+    "metadata": {
+      "minute_rate_millimes": 35,
+      "minute_rate_tnd": 0.035,
+      "coverage": "all_operators"
+    }
+  },
+  {
+    "service": "DO Offer",
+    "chunk_id": "do_simulator",
+    "content": "DO: Simulator for Internet and/or Call packages according to needs",
+    "tags": ["do", "simulator", "packages"],
+    "metadata": {
+      "features": ["simulator", "customization"]
+    }
+  },
+  {
+    "service": "DO Offer",
+    "chunk_id": "do_line_price",
+    "content": "DO: Line purchase price 2 TND",
+    "tags": ["do", "line", "price"],
+    "metadata": {
+      "line_price_tnd": 2
+    }
+  },
+  {
+    "service": "DO Offer",
+    "chunk_id": "do_support",
+    "content": "DO: 100% digital assistance via WhatsApp, Messenger, Live Chat, FAQ",
+    "tags": ["do", "support", "digital"],
+    "metadata": {
+      "support_channels": ["whatsapp", "messenger", "live_chat", "faq"],
+      "support_type": "100_percent_digital"
+    }
+  }
+]
