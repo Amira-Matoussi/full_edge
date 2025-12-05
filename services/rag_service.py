@@ -7,6 +7,10 @@ import json
 from functools import lru_cache
 from typing import List
 
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 try:
     import numpy as np
 except ImportError:
@@ -32,10 +36,12 @@ except ImportError:
     Groq = None
 
 from config import GROQ_API_KEY, LLM_MODEL, MAX_RESULTS, detect
-from text_utils import get_gender_aware_system_prompt
+from utils.text_utils import get_gender_aware_system_prompt
 
 
 class ImprovedRAGSystem:
+    """RAG system with multilingual support and gender-aware responses"""
+
     def __init__(self):
         self.embedding_model = None
         self.groq_client = None
@@ -244,7 +250,7 @@ class ImprovedRAGSystem:
 
     def get_response(self, query: str, ui_language: str = "en-US", assistant_name: str = "Amira") -> str:
         """
-        ✅ CORRECTED VERSION - Combines gender-aware prompts + full RAG context
+        CORRECTED VERSION - Combines gender-aware prompts + full RAG context
         """
         if not self.groq_client:
             return self._get_fallback_response(ui_language)
@@ -290,7 +296,7 @@ class ImprovedRAGSystem:
         else:
             translated_search = search_query
 
-        # ✅ CRITICAL: SEARCH FOR CONTEXT - THIS WAS MISSING!
+        # CRITICAL: SEARCH FOR CONTEXT
         context_results = self.search_context(translated_search)
         context = "\n".join(context_results)
 
@@ -303,10 +309,10 @@ class ImprovedRAGSystem:
 
         lang_instruction = language_instructions.get(target_response_lang, language_instructions["en"])
 
-        # ✅ GET GENDER-AWARE BASE PROMPT
+        # GET GENDER-AWARE BASE PROMPT
         base_prompt = get_gender_aware_system_prompt(assistant_id, ui_language)
 
-        # ✅ BUILD FULL PROMPT WITH CONTEXT, CONVERSATION, AND GENDER-AWARE BASE
+        # BUILD FULL PROMPT WITH CONTEXT, CONVERSATION, AND GENDER-AWARE BASE
         if is_conversation_context:
             prompt = f"""{base_prompt}
 

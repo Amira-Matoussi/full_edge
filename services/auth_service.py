@@ -1,11 +1,17 @@
 """
-JWT utility functions for RAG Server
-Handles JWT token generation and verification
+Authentication Service for RAG Server
+Handles JWT token generation, verification, and user authentication
 """
 import jwt
 from datetime import datetime, timedelta
-from fastapi import HTTPException, Depends
+from typing import Optional
+from fastapi import HTTPException, Depends, Header
 from fastapi.security import HTTPAuthorizationCredentials
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from config import JWT_SECRET, JWT_ALGORITHM, JWT_EXPIRATION_HOURS, security
 
 
@@ -41,3 +47,14 @@ async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(s
         raise
     except Exception as e:
         raise HTTPException(status_code=401, detail=f"Authentication failed: {str(e)}")
+
+
+async def get_optional_user(authorization: Optional[str] = Header(None)) -> Optional[dict]:
+    """Get user if token is provided, otherwise return None (for guest access)"""
+    if authorization and authorization.startswith("Bearer "):
+        token = authorization.split(" ")[1]
+        try:
+            return verify_jwt_token(token)
+        except:
+            return None
+    return None

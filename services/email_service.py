@@ -3,10 +3,17 @@ Email Service for RAG Server
 Handles email verification and notifications via SendGrid
 """
 import requests
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from config import SENDGRID_API_KEY, FROM_EMAIL
 
 
 class EmailService:
+    """Service for sending verification emails via SendGrid"""
+
     def __init__(self):
         self.sendgrid_api_key = SENDGRID_API_KEY
         self.from_email = FROM_EMAIL
