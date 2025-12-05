@@ -7,13 +7,23 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-# Import configuration and services
+# Import configuration
 from config import (
     GROQ_API_KEY, JWT_SECRET, AUDIO_STORAGE_PATH, LLM_MODEL, db
 )
-from rag_service import ImprovedRAGSystem
-from sms_service import SMSService
-from email_service import EmailService
+
+# Import services from services folder
+from services.rag_service import ImprovedRAGSystem
+from services.sms_service import SMSService
+from services.email_service import EmailService
+
+# Import route modules
+from routes.auth import router as auth_router
+from routes.profile import router as profile_router
+from routes.voice import router as voice_router
+from routes.twilio import router as twilio_router
+from routes.dashboard import router as dashboard_router
+from routes.tts import router as tts_router
 
 # Initialize services
 rag_system = ImprovedRAGSystem()
@@ -21,15 +31,36 @@ sms_service = SMSService()
 email_service = EmailService()
 
 # FastAPI setup
-app = FastAPI(title="Ooredoo AI Assistant (Corrected RAG + Edge TTS)", version="4.0")
+app = FastAPI(
+    title="Ooredoo AI Assistant",
+    description="RAG-powered AI Assistant with Edge TTS",
+    version="4.0"
+)
 
+# CORS middleware configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=[
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:8000",
+        "http://127.0.0.1:8000"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# ============================================
+# REGISTER ALL ROUTERS
+# ============================================
+
+app.include_router(auth_router)
+app.include_router(profile_router)
+app.include_router(voice_router)
+app.include_router(twilio_router)
+app.include_router(dashboard_router)
+app.include_router(tts_router)
 
 # ============================================
 # HEALTH CHECK ENDPOINTS
@@ -37,6 +68,7 @@ app.add_middleware(
 
 @app.get("/health")
 async def health_check():
+    """Health check endpoint"""
     return {
         "status": "healthy",
         "rag_ready": rag_system.index is not None,
@@ -47,8 +79,10 @@ async def health_check():
         "tts": "edge_tts"
     }
 
+
 @app.get("/api/check-config")
 async def check_config():
+    """Configuration check endpoint"""
     return {
         "hasRAG": rag_system.index is not None,
         "embeddingModel": "paraphrase-multilingual-MiniLM-L12-v2",
@@ -64,6 +98,19 @@ async def check_config():
         ]
     }
 
+
+@app.get("/")
+async def root():
+    """Root endpoint"""
+    return {
+        "name": "Ooredoo AI Assistant API",
+        "version": "4.0",
+        "status": "running",
+        "docs": "/docs",
+        "health": "/health"
+    }
+
+
 # ============================================
 # STATIC FILE SERVING FOR AUDIO
 # ============================================
@@ -75,9 +122,21 @@ if not os.path.exists(AUDIO_STORAGE_PATH):
 
 app.mount("/recordings", StaticFiles(directory=AUDIO_STORAGE_PATH), name="recordings")
 
+
 # ============================================
 # APPLICATION STARTUP
 # ============================================
+
+@app.on_event("startup")
+async def startup_event():
+    """Application startup event handler"""
+    print("🚀 Starting Ooredoo AI Assistant Server...")
+    print(f"📊 RAG System Status: {'✅ Ready' if rag_system.index is not None else '❌ Failed'}")
+    print(f"🗄️ Database Status: {'✅ Connected' if db is not None else '❌ Not available'}")
+    print(f"🎤 TTS Status: ✅ Edge TTS (FREE)")
+    print(f"📱 SMS Service Status: {'✅ Ready' if sms_service.client is not None else '⚠️ Development mode'}")
+    print(f"✅ Features: Gender-Aware Prompts + Full RAG Context + Edge TTS")
+
 
 if __name__ == "__main__":
     import uvicorn
@@ -88,12 +147,5 @@ if __name__ == "__main__":
 
     if JWT_SECRET == "your-secret-key-please-change-this-in-production":
         print("⚠️ WARNING: Using default JWT secret. Change this in production!")
-
-    print("🚀 Starting Ooredoo AI Assistant Server (Corrected RAG + Edge TTS)...")
-    print(f"📊 RAG System Status: {'✅ Ready' if rag_system.index is not None else '❌ Failed'}")
-    print(f"🗄️ Database Status: {'✅ Connected' if db is not None else '❌ Not available'}")
-    print(f"🎤 TTS Status: ✅ Edge TTS (FREE)")
-    print(f"📱 SMS Service Status: {'✅ Ready' if sms_service.client is not None else '⚠️ Development mode'}")
-    print(f"✅ Features: Gender-Aware Prompts + Full RAG Context + Edge TTS")
 
     uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)

@@ -7,8 +7,12 @@ import re
 import base64
 from datetime import datetime
 from typing import Optional
+
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from config import AUDIO_STORAGE_PATH, db, edge_tts
-from text_utils import apply_pronunciation_fixes
+from utils.text_utils import apply_pronunciation_fixes
 
 
 async def save_audio_file(audio_data: str, session_id: str) -> Optional[str]:

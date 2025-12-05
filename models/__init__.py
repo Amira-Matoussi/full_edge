@@ -87,3 +87,22 @@ class EdgeTTSRequest(BaseModel):
     text: str
     voice_id: str  # "slah" or "amira"
     language: str  # "en-US", "fr-FR", or "ar-SA"
+
+
+class ForgotPasswordRequest(BaseModel):
+    method: str = "phone"  # "phone" or "email"
+    identifier: str
+
+
+class ResetPasswordRequest(BaseModel):
+    phone: Optional[str] = None
+    email: Optional[str] = None
+    verification_code: str
+    new_password: str
+
+
+class VerificationRequest(BaseModel):
+    phone: Optional[str] = None
+    email: Optional[str] = None
+    action: str = "register"  # register, reset_password, login
+    user_data: Optional[dict] = None

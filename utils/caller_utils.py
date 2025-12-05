@@ -2,8 +2,12 @@
 Caller utility functions for RAG Server
 Handles caller identification and verification
 """
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from models import CallerInfo
-from phone_utils import normalize_phone_number
+from utils.phone_utils import normalize_phone_number
 from config import db
 
 

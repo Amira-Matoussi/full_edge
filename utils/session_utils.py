@@ -2,6 +2,10 @@
 Session utility functions for RAG Server
 Handles call session management
 """
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from models import CallSession
 from config import call_sessions
 

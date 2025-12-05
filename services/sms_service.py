@@ -2,6 +2,10 @@
 SMS Service for RAG Server
 Handles SMS verification via Twilio
 """
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 try:
     from twilio.rest import Client
 except ImportError:
@@ -12,6 +16,8 @@ from config import TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER
 
 
 class SMSService:
+    """Service for sending SMS verification codes via Twilio"""
+
     def __init__(self):
         self.client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN) if (Client and TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN) else None
         self.dev_mode = False  # Set to False for production SMS
