@@ -1,0 +1,505 @@
+[
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_pre_type",
+    "content": "MIFI 4G مدفوع مسبقاً: بدون التزام",
+    "tags": ["mifi", "4g", "مدفوع_مسبقاً", "التزام"],
+    "metadata": {
+      "technology": "4G",
+      "payment_type": "prepaid",
+      "engagement": false
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_pre_pack_99",
+    "content": "باقة MIFI 4G مسبق 99: 99 د.ت، 80 جيجا بيانات، صالحة شهرين، بدون تقييد سرعة",
+    "tags": ["mifi", "4g", "مدفوع_مسبقاً", "باقة", "99دت"],
+    "metadata": {
+      "price_tnd": 99,
+      "data_gb": 80,
+      "validity_months": 2,
+      "speed_limit": null,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_pre_pack_129",
+    "content": "باقة MIFI 4G مسبق 129: 129 د.ت، 150 جيجا بيانات، صالحة 3 أشهر، بدون تقييد سرعة",
+    "tags": ["mifi", "4g", "مدفوع_مسبقاً", "باقة", "129دت"],
+    "metadata": {
+      "price_tnd": 129,
+      "data_gb": 150,
+      "validity_months": 3,
+      "speed_limit": null,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_pre_pack_149",
+    "content": "باقة MIFI 4G مسبق 149: 149 د.ت، 200 جيجا بيانات، صالحة 3 أشهر، بدون تقييد سرعة",
+    "tags": ["mifi", "4g", "مدفوع_مسبقاً", "باقة", "149دت"],
+    "metadata": {
+      "price_tnd": 149,
+      "data_gb": 200,
+      "validity_months": 3,
+      "speed_limit": null,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_pre_pack_252",
+    "content": "باقة MIFI 4G مسبق 252: 252 د.ت، 500 جيجا بيانات، صالحة 4 أشهر، بدون تقييد سرعة",
+    "tags": ["mifi", "4g", "مدفوع_مسبقاً", "باقة", "252دت"],
+    "metadata": {
+      "price_tnd": 252,
+      "data_gb": 500,
+      "validity_months": 4,
+      "speed_limit": null,
+      "technology": "4G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_post_type",
+    "content": "MIFI 4G مفوتر: التزام 12 شهر",
+    "tags": ["mifi", "4g", "مفوتر", "التزام"],
+    "metadata": {
+      "technology": "4G",
+      "payment_type": "postpaid",
+      "engagement_months": 12
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_post_pack_46",
+    "content": "باقة MIFI 4G مفوتر 46.2: اكتساب 94 د.ت، 42 جيجا بيانات، رسوم شهرية 46.2 د.ت، تقييد سرعة 1 ميجابت/ث",
+    "tags": ["mifi", "4g", "مفوتر", "باقة", "46دت"],
+    "metadata": {
+      "acquisition_price_tnd": 94,
+      "monthly_fee_tnd": 46.2,
+      "data_gb": 42,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_post_pack_55",
+    "content": "باقة MIFI 4G مفوتر 55: اكتساب 112 د.ت، 55 جيجا بيانات، رسوم شهرية 55 د.ت، تقييد سرعة 1 ميجابت/ث",
+    "tags": ["mifi", "4g", "مفوتر", "باقة", "55دت"],
+    "metadata": {
+      "acquisition_price_tnd": 112,
+      "monthly_fee_tnd": 55,
+      "data_gb": 55,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_post_pack_72",
+    "content": "باقة MIFI 4G مفوتر 72: اكتساب 146 د.ت، 72 جيجا بيانات، رسوم شهرية 72 د.ت، تقييد سرعة 1 ميجابت/ث",
+    "tags": ["mifi", "4g", "مفوتر", "باقة", "72دت"],
+    "metadata": {
+      "acquisition_price_tnd": 146,
+      "monthly_fee_tnd": 72,
+      "data_gb": 72,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_post_pack_100",
+    "content": "باقة MIFI 4G مفوتر 100: اكتساب 202 د.ت، 100 جيجا بيانات، رسوم شهرية 100 د.ت، تقييد سرعة 1 ميجابت/ث",
+    "tags": ["mifi", "4g", "مفوتر", "باقة", "100دت"],
+    "metadata": {
+      "acquisition_price_tnd": 202,
+      "monthly_fee_tnd": 100,
+      "data_gb": 100,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_4g_post_pack_250",
+    "content": "باقة MIFI 4G مفوتر 250: اكتساب 502 د.ت، 500 جيجا بيانات، رسوم شهرية 250 د.ت، تقييد سرعة 1 ميجابت/ث",
+    "tags": ["mifi", "4g", "مفوتر", "باقة", "250دت"],
+    "metadata": {
+      "acquisition_price_tnd": 502,
+      "monthly_fee_tnd": 250,
+      "data_gb": 500,
+      "speed_limit_mbps": 1,
+      "technology": "4G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_5g_post_type",
+    "content": "MIFI 5G مفوتر: التزام 24 شهر",
+    "tags": ["mifi", "5g", "مفوتر", "التزام"],
+    "metadata": {
+      "technology": "5G",
+      "payment_type": "postpaid",
+      "engagement_months": 24
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_5g_features",
+    "content": "MIFI 5G: اتصال فائق السرعة، زمن استجابة منخفض، بث UHD، ألعاب بدون تأخير، أجهزة متعددة",
+    "tags": ["mifi", "5g", "مزايا", "خصائص"],
+    "metadata": {
+      "features": ["ultra_fast", "low_latency", "uhd_streaming", "gaming", "multi_device"]
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_5g_post_pack_250",
+    "content": "باقة MIFI 5G مفوتر C&C 250: اكتساب 502 د.ت، 500 جيجا بيانات، رسوم شهرية 250 د.ت، تقييد سرعة 1 ميجابت/ث",
+    "tags": ["mifi", "5g", "مفوتر", "باقة", "250دت"],
+    "metadata": {
+      "acquisition_price_tnd": 502,
+      "monthly_fee_tnd": 250,
+      "data_gb": 500,
+      "speed_limit_mbps": 1,
+      "technology": "5G",
+      "payment_type": "postpaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_5g_pre_type",
+    "content": "MIFI 5G مدفوع مسبقاً: بدون التزام",
+    "tags": ["mifi", "5g", "مدفوع_مسبقاً", "التزام"],
+    "metadata": {
+      "technology": "5G",
+      "payment_type": "prepaid",
+      "engagement": false
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_5g_pre_pack_252",
+    "content": "باقة MIFI 5G مسبق 252: 252 د.ت، 500 جيجا بيانات، صالحة 120 يوم، بدون تقييد سرعة",
+    "tags": ["mifi", "5g", "مدفوع_مسبقاً", "باقة", "252دت"],
+    "metadata": {
+      "price_tnd": 252,
+      "data_gb": 500,
+      "validity_days": 120,
+      "speed_limit": null,
+      "technology": "5G",
+      "payment_type": "prepaid"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "discount_recharge_account",
+    "content": "خصم 5% للدفع عبر حساب التعبئة",
+    "tags": ["خصم", "دفع", "عرض"],
+    "metadata": {
+      "discount_percentage": 5,
+      "payment_method": "recharge_account"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "discount_bank_card",
+    "content": "خصم 10% للدفع بالبطاقة البنكية",
+    "tags": ["خصم", "دفع", "عرض", "بطاقة"],
+    "metadata": {
+      "discount_percentage": 10,
+      "payment_method": "bank_card"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "forfait_cumulation_rules",
+    "content": "الباقات الإضافية غير قابلة للتجميع على حساب واحد، كل باقة على حساب مخصص",
+    "tags": ["باقة", "تجميع", "قواعد"],
+    "metadata": {
+      "cumulation_allowed": false,
+      "account_rule": "dedicated_account_per_package"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_pro_25gb",
+    "content": "MIFI Pro 25 جيجا: 25 د.ت شاملة الضريبة/شهرياً، 25 جيجا بيانات، تقييد 512 كيلوبت/ث، التزام 12 شهر، 4G",
+    "tags": ["mifi", "محترف", "أعمال", "25جب"],
+    "metadata": {
+      "monthly_fee_tnd": 25,
+      "data_gb": 25,
+      "speed_limit_kbps": 512,
+      "engagement_months": 12,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_pro_45gb",
+    "content": "MIFI Pro 45 جيجا: 32.2 د.ت شاملة الضريبة/شهرياً، 45 جيجا بيانات، تقييد 1 ميجابت/ث، التزام 24 شهر، 4G",
+    "tags": ["mifi", "محترف", "أعمال", "45جب"],
+    "metadata": {
+      "monthly_fee_tnd": 32.2,
+      "data_gb": 45,
+      "speed_limit_mbps": 1,
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_pro_75gb",
+    "content": "MIFI Pro 75 جيجا: 53.5 د.ت شاملة الضريبة/شهرياً، 75 جيجا بيانات، تقييد 1 ميجابت/ث، التزام 24 شهر، 4G",
+    "tags": ["mifi", "محترف", "أعمال", "75جب"],
+    "metadata": {
+      "monthly_fee_tnd": 53.5,
+      "data_gb": 75,
+      "speed_limit_mbps": 1,
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_pro_100gb",
+    "content": "MIFI Pro 100 جيجا: 71.4 د.ت شاملة الضريبة/شهرياً، 100 جيجا بيانات، تقييد 1 ميجابت/ث، التزام 24 شهر، 4G",
+    "tags": ["mifi", "محترف", "أعمال", "100جب"],
+    "metadata": {
+      "monthly_fee_tnd": 71.4,
+      "data_gb": 100,
+      "speed_limit_mbps": 1,
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_pro_200gb",
+    "content": "MIFI Pro 200 جيجا: 100 د.ت شاملة الضريبة/شهرياً، 200 جيجا بيانات، تقييد 1 ميجابت/ث أو لا محدود، التزام 24 شهر، 4G",
+    "tags": ["mifi", "محترف", "أعمال", "200جب"],
+    "metadata": {
+      "monthly_fee_tnd": 100,
+      "data_gb": 200,
+      "speed_limit": "1mbps_or_unlimited",
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_pro_500gb_4g",
+    "content": "MIFI Pro 500 جيجا 4G: 250 د.ت شاملة الضريبة/شهرياً، 500 جيجا بيانات، تقييد 1 ميجابت/ث أو لا محدود، التزام 24 شهر",
+    "tags": ["mifi", "محترف", "أعمال", "500جب", "4g"],
+    "metadata": {
+      "monthly_fee_tnd": 250,
+      "data_gb": 500,
+      "speed_limit": "1mbps_or_unlimited",
+      "engagement_months": 24,
+      "technology": "4G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "mifi_pro_500gb_5g",
+    "content": "MIFI Pro 500 جيجا 5G: 250 د.ت شاملة الضريبة/شهرياً، 500 جيجا بيانات، تقييد 1 ميجابت/ث أو لا محدود، التزام 24 شهر",
+    "tags": ["mifi", "محترف", "أعمال", "500جب", "5g"],
+    "metadata": {
+      "monthly_fee_tnd": 250,
+      "data_gb": 500,
+      "speed_limit": "1mbps_or_unlimited",
+      "engagement_months": 24,
+      "technology": "5G",
+      "segment": "pro"
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_1.25gb",
+    "content": "فليكسي 1.25 جيجا: 4.5 د.ت، صالحة 30 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 4.5,
+      "price_5pct_discount": 4.275,
+      "price_10pct_discount": 4.05,
+      "data_gb": 1.25,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_4gb",
+    "content": "فليكسي 4 جيجا: 8.55 د.ت، صالحة 30 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 8.55,
+      "price_5pct_discount": 8.1,
+      "data_gb": 4,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_8gb",
+    "content": "فليكسي 8 جيجا: 13.5 د.ت، صالحة 30 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 13.5,
+      "price_5pct_discount": 12.825,
+      "price_10pct_discount": 12.15,
+      "data_gb": 8,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_25gb",
+    "content": "فليكسي 25 جيجا: 18 د.ت، صالحة 30 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 18,
+      "price_5pct_discount": 17.1,
+      "price_10pct_discount": 16.2,
+      "data_gb": 25,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_30gb",
+    "content": "فليكسي 30 جيجا: 27 د.ت، صالحة 30 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 27,
+      "price_5pct_discount": 25.65,
+      "price_10pct_discount": 24.3,
+      "data_gb": 30,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_55gb",
+    "content": "فليكسي 55 جيجا: 32.5 د.ت، صالحة 30 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 32.5,
+      "price_5pct_discount": 30.875,
+      "price_10pct_discount": 29.25,
+      "data_gb": 55,
+      "validity_days": 30
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_75gb",
+    "content": "فليكسي 75 جيجا: 50 د.ت، صالحة 55 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 50,
+      "price_5pct_discount": 47.5,
+      "price_10pct_discount": 45,
+      "data_gb": 75,
+      "validity_days": 55
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_100gb",
+    "content": "فليكسي 100 جيجا: 61 د.ت، صالحة 60 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 61,
+      "price_5pct_discount": 57.95,
+      "price_10pct_discount": 54.9,
+      "data_gb": 100,
+      "validity_days": 60
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_120gb",
+    "content": "فليكسي 120 جيجا: 65 د.ت، صالحة 90 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 65,
+      "price_5pct_discount": 61.75,
+      "price_10pct_discount": 58.5,
+      "data_gb": 120,
+      "validity_days": 90
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_200gb",
+    "content": "فليكسي 200 جيجا: 78 د.ت، صالحة 90 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 78,
+      "price_5pct_discount": 74.1,
+      "price_10pct_discount": 70.2,
+      "data_gb": 200,
+      "validity_days": 90
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_500gb",
+    "content": "فليكسي 500 جيجا: 90 د.ت، صالحة 120 يوم",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية"],
+    "metadata": {
+      "price_tnd": 90,
+      "price_5pct_discount": 85.5,
+      "price_10pct_discount": 81,
+      "data_gb": 500,
+      "validity_days": 120
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_1000gb_5months",
+    "content": "فليكسي 1000 جيجا (5 أشهر): 225 د.ت",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية", "1تب"],
+    "metadata": {
+      "price_tnd": 225,
+      "price_5pct_discount": 213.75,
+      "price_10pct_discount": 202.5,
+      "data_gb": 1000,
+      "validity_months": 5
+    }
+  },
+  {
+    "service": "عرض MIFI",
+    "chunk_id": "flexi_1000gb_annual",
+    "content": "فليكسي 1000 جيجا (365 يوم): 450 د.ت",
+    "tags": ["فليكسي", "باقة", "بيانات", "إضافية", "1تب", "سنوي"],
+    "metadata": {
+      "price_tnd": 450,
+      "price_5pct_discount": 427.5,
+      "price_10pct_discount": 405,
+      "data_gb": 1000,
+      "validity_days": 365
+    }
+  }
+]

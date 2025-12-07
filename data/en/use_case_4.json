@@ -1,0 +1,417 @@
+[
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_20_data",
+    "content": "Shahry 20: 7 GB data",
+    "tags": ["shahry", "postpaid", "data", "20dt"],
+    "metadata": {
+      "plan_name": "Shahry 20",
+      "price_tnd": 20,
+      "data_gb": 7
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_20_voice",
+    "content": "Shahry 20: 60 minutes of calls included",
+    "tags": ["shahry", "postpaid", "voice", "20dt"],
+    "metadata": {
+      "plan_name": "Shahry 20",
+      "price_tnd": 20,
+      "voice_minutes": 60
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_20_sms",
+    "content": "Shahry 20: 100 SMS included",
+    "tags": ["shahry", "postpaid", "sms", "20dt"],
+    "metadata": {
+      "plan_name": "Shahry 20",
+      "price_tnd": 20,
+      "sms_count": 100
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_20_smartphone_discount",
+    "content": "Shahry 20: Smartphone discount 180 TND",
+    "tags": ["shahry", "postpaid", "smartphone", "discount", "20dt"],
+    "metadata": {
+      "plan_name": "Shahry 20",
+      "smartphone_discount_tnd": 180
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_35_data",
+    "content": "Shahry 35: 25 GB data, reduced speed 512 kbps after depletion",
+    "tags": ["shahry", "postpaid", "data", "35dt"],
+    "metadata": {
+      "plan_name": "Shahry 35",
+      "price_tnd": 35,
+      "data_gb": 25,
+      "after_quota_speed_kbps": 512
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_35_voice",
+    "content": "Shahry 35: 150 minutes of calls included",
+    "tags": ["shahry", "postpaid", "voice", "35dt"],
+    "metadata": {
+      "plan_name": "Shahry 35",
+      "price_tnd": 35,
+      "voice_minutes": 150
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_35_sms",
+    "content": "Shahry 35: 100 SMS included",
+    "tags": ["shahry", "postpaid", "sms", "35dt"],
+    "metadata": {
+      "plan_name": "Shahry 35",
+      "price_tnd": 35,
+      "sms_count": 100
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_35_smartphone_discount",
+    "content": "Shahry 35: Smartphone discount 315 TND",
+    "tags": ["shahry", "postpaid", "smartphone", "discount", "35dt"],
+    "metadata": {
+      "plan_name": "Shahry 35",
+      "smartphone_discount_tnd": 315
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_55_data",
+    "content": "Shahry 55: 42 GB data, reduced speed 1 Mbps after depletion",
+    "tags": ["shahry", "postpaid", "data", "55dt"],
+    "metadata": {
+      "plan_name": "Shahry 55",
+      "price_tnd": 55,
+      "data_gb": 42,
+      "after_quota_speed_mbps": 1
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_55_voice",
+    "content": "Shahry 55: 240 minutes of calls included",
+    "tags": ["shahry", "postpaid", "voice", "55dt"],
+    "metadata": {
+      "plan_name": "Shahry 55",
+      "price_tnd": 55,
+      "voice_minutes": 240
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_55_sms",
+    "content": "Shahry 55: 200 SMS included",
+    "tags": ["shahry", "postpaid", "sms", "55dt"],
+    "metadata": {
+      "plan_name": "Shahry 55",
+      "price_tnd": 55,
+      "sms_count": 200
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_55_smartphone_discount",
+    "content": "Shahry 55: Smartphone discount 495 TND",
+    "tags": ["shahry", "postpaid", "smartphone", "discount", "55dt"],
+    "metadata": {
+      "plan_name": "Shahry 55",
+      "smartphone_discount_tnd": 495
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_110_data",
+    "content": "Shahry 110: 200 GB data, reduced speed 1 Mbps after depletion",
+    "tags": ["shahry", "postpaid", "data", "110dt"],
+    "metadata": {
+      "plan_name": "Shahry 110",
+      "price_tnd": 110,
+      "data_gb": 200,
+      "after_quota_speed_mbps": 1
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_110_voice",
+    "content": "Shahry 110: 300 minutes of calls included",
+    "tags": ["shahry", "postpaid", "voice", "110dt"],
+    "metadata": {
+      "plan_name": "Shahry 110",
+      "price_tnd": 110,
+      "voice_minutes": 300
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_110_sms",
+    "content": "Shahry 110: 200 SMS included",
+    "tags": ["shahry", "postpaid", "sms", "110dt"],
+    "metadata": {
+      "plan_name": "Shahry 110",
+      "price_tnd": 110,
+      "sms_count": 200
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_110_smartphone_discount",
+    "content": "Shahry 110: Smartphone discount 990 TND",
+    "tags": ["shahry", "postpaid", "smartphone", "discount", "110dt"],
+    "metadata": {
+      "plan_name": "Shahry 110",
+      "smartphone_discount_tnd": 990
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_160_data",
+    "content": "Shahry 160: 200 GB data, reduced speed 1 Mbps after depletion",
+    "tags": ["shahry", "postpaid", "data", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "data_gb": 200,
+      "after_quota_speed_mbps": 1
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_160_voice",
+    "content": "Shahry 160: 360 minutes of calls included",
+    "tags": ["shahry", "postpaid", "voice", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "voice_minutes": 360
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_160_sms",
+    "content": "Shahry 160: 300 SMS included",
+    "tags": ["shahry", "postpaid", "sms", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "sms_count": 300
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_160_international",
+    "content": "Shahry 160: 30 minutes of international calls included",
+    "tags": ["shahry", "postpaid", "international", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "international_minutes": 30
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_160_roaming",
+    "content": "Shahry 160: 2 GB roaming data included",
+    "tags": ["shahry", "postpaid", "roaming", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "roaming_data_gb": 2
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_160_smartphone_discount",
+    "content": "Shahry 160: Smartphone discount 1440 TND",
+    "tags": ["shahry", "postpaid", "smartphone", "discount", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "smartphone_discount_tnd": 1440
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_265_data",
+    "content": "Shahry 265: 250 GB data, reduced speed 1 Mbps after depletion",
+    "tags": ["shahry", "postpaid", "data", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "data_gb": 250,
+      "after_quota_speed_mbps": 1
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_265_voice",
+    "content": "Shahry 265: 420 minutes of calls included",
+    "tags": ["shahry", "postpaid", "voice", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "voice_minutes": 420
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_265_sms",
+    "content": "Shahry 265: 300 SMS included",
+    "tags": ["shahry", "postpaid", "sms", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "sms_count": 300
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_265_international",
+    "content": "Shahry 265: 60 minutes of international calls included",
+    "tags": ["shahry", "postpaid", "international", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "international_minutes": 60
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_265_roaming",
+    "content": "Shahry 265: 10 GB roaming data included",
+    "tags": ["shahry", "postpaid", "roaming", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "roaming_data_gb": 10
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "shahry_265_smartphone_discount",
+    "content": "Shahry 265: Smartphone discount 2385 TND",
+    "tags": ["shahry", "postpaid", "smartphone", "discount", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "smartphone_discount_tnd": 2385
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "documents_cin",
+    "content": "Required document: Copy of national identity card",
+    "tags": ["documents", "id", "subscription"],
+    "metadata": {
+      "document_type": "cin",
+      "required": true
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "documents_credit_request",
+    "content": "Required document: Signed credit application",
+    "tags": ["documents", "credit", "subscription"],
+    "metadata": {
+      "document_type": "credit_request",
+      "required": true
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "documents_work_certificate",
+    "content": "Required document: Work certificate",
+    "tags": ["documents", "work", "subscription"],
+    "metadata": {
+      "document_type": "work_certificate",
+      "required": true
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "documents_pay_slips",
+    "content": "Required document: Last 3 pay slips",
+    "tags": ["documents", "salary", "subscription"],
+    "metadata": {
+      "document_type": "pay_slips",
+      "quantity": 3,
+      "required": true
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "documents_bank_statements",
+    "content": "Required document: Last 3 bank statements",
+    "tags": ["documents", "bank", "subscription"],
+    "metadata": {
+      "document_type": "bank_statements",
+      "quantity": 3,
+      "required": true
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "documents_utility_bill",
+    "content": "Required document: SONEDE or STEG bill",
+    "tags": ["documents", "bill", "subscription"],
+    "metadata": {
+      "document_type": "utility_bill",
+      "providers": ["SONEDE", "STEG"],
+      "required": true
+    }
+  },
+  {
+    "service": "Postpaid Offers",
+    "type": "B2C",
+    "chunk_id": "documents_proforma",
+    "content": "Required document: Pro-forma invoice",
+    "tags": ["documents", "proforma", "subscription"],
+    "metadata": {
+      "document_type": "proforma_invoice",
+      "required": true
+    }
+  }
+]

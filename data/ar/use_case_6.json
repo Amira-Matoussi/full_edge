@@ -1,0 +1,163 @@
+[
+  {
+    "service": "فايبر برو",
+    "chunk_id": "download_speed",
+    "content": "فايبر برو: 100 ميجابت/ث سرعة التحميل",
+    "tags": ["فايبر", "محترف", "سرعة", "تحميل"],
+    "metadata": {
+      "download_speed_mbps": 100,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "upload_speed",
+    "content": "فايبر برو: 50 ميجابت/ث سرعة الرفع",
+    "tags": ["فايبر", "محترف", "سرعة", "رفع"],
+    "metadata": {
+      "upload_speed_mbps": 50,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "price_ht",
+    "content": "فايبر برو: 61.1 د.ت بدون ضريبة السعر الشهري",
+    "tags": ["فايبر", "محترف", "سعر", "بدون_ضريبة"],
+    "metadata": {
+      "monthly_price_ht_tnd": 61.1,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "price_ttc",
+    "content": "فايبر برو: 83 د.ت شاملة الضريبة السعر الشهري يشمل ضريبة القيمة المضافة والطابع",
+    "tags": ["فايبر", "محترف", "سعر", "شامل_ضريبة"],
+    "metadata": {
+      "monthly_price_ttc_tnd": 83,
+      "includes": ["tva", "timbre"],
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "engagement",
+    "content": "فايبر برو: التزام 24 شهر",
+    "tags": ["فايبر", "محترف", "التزام"],
+    "metadata": {
+      "engagement_months": 24,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "billing_type",
+    "content": "فايبر برو: فواتير شهرية مؤجلة الدفع",
+    "tags": ["فايبر", "محترف", "فوترة"],
+    "metadata": {
+      "billing_type": "postpaid",
+      "billing_frequency": "monthly",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "eligibility",
+    "content": "فايبر برو: الأهلية في مناطق FTTx",
+    "tags": ["فايبر", "محترف", "أهلية", "مناطق"],
+    "metadata": {
+      "eligible_zones": "FTTx",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "installation_fee",
+    "content": "فايبر برو: التركيب مجاني",
+    "tags": ["فايبر", "محترف", "تركيب", "مجاني"],
+    "metadata": {
+      "installation_fee_tnd": 0,
+      "installation_type": "free",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "voice_tariff",
+    "content": "فايبر برو: تعرفة الصوت 45 مليم شاملة الضريبة لكل دقيقة للشبكة الوطنية",
+    "tags": ["فايبر", "محترف", "صوت", "تعرفة"],
+    "metadata": {
+      "voice_rate_millimes": 45,
+      "voice_rate_tnd": 0.045,
+      "tax_included": true,
+      "coverage": "national_network",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "fixed_ip",
+    "content": "فايبر برو: عنوان IP ثابت مدرج",
+    "tags": ["فايبر", "محترف", "ip", "ثابت"],
+    "metadata": {
+      "fixed_ip": true,
+      "fixed_ip_included": true,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "consumption_tracking",
+    "content": "فايبر برو: تتبع الاستهلاك عبر IVR 1136",
+    "tags": ["فايبر", "محترف", "تتبع", "ivr"],
+    "metadata": {
+      "tracking_method": "IVR",
+      "ivr_number": "1136",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "advantage_bandwidth",
+    "content": "فايبر برو: عرض نطاق مضاعف بأفضل سعر",
+    "tags": ["فايبر", "محترف", "مزايا", "عرض_نطاق"],
+    "metadata": {
+      "advantage": "double_bandwidth",
+      "value_proposition": "best_price",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "advantage_unlimited",
+    "content": "فايبر برو: اتصال عالي السرعة جداً غير محدود",
+    "tags": ["فايبر", "محترف", "مزايا", "غير_محدود"],
+    "metadata": {
+      "connection_type": "unlimited",
+      "speed_category": "very_high_speed",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "advantage_devices",
+    "content": "فايبر برو: خدمات لشراء الهواتف الذكية أو الأجهزة اللوحية",
+    "tags": ["فايبر", "محترف", "مزايا", "أجهزة"],
+    "metadata": {
+      "additional_services": ["smartphone_purchase", "tablet_purchase"],
+      "segment": "business"
+    }
+  },
+  {
+    "service": "فايبر برو",
+    "chunk_id": "promotion_period",
+    "content": "فايبر برو: عرض خاص صالح لـ 3 أشهر",
+    "tags": ["فايبر", "محترف", "عرض", "مدة"],
+    "metadata": {
+      "promotion_duration_months": 3,
+      "promotion_type": "special",
+      "segment": "business"
+    }
+  }
+]

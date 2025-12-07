@@ -1,0 +1,178 @@
+[
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "download_speed",
+    "content": "Fibre Pro: 100 Mbps download speed",
+    "tags": ["fibre", "pro", "speed", "download"],
+    "metadata": {
+      "download_speed_mbps": 100,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "upload_speed",
+    "content": "Fibre Pro: 50 Mbps upload speed",
+    "tags": ["fibre", "pro", "speed", "upload"],
+    "metadata": {
+      "upload_speed_mbps": 50,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "price_ht",
+    "content": "Fibre Pro: 61.1 TND excluding tax monthly price",
+    "tags": ["fibre", "pro", "price", "excluding_tax"],
+    "metadata": {
+      "monthly_price_ht_tnd": 61.1,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "price_ttc",
+    "content": "Fibre Pro: 83 TND tax-included monthly price including VAT and stamp",
+    "tags": ["fibre", "pro", "price", "tax_included"],
+    "metadata": {
+      "monthly_price_ttc_tnd": 83,
+      "includes": ["tva", "timbre"],
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "engagement",
+    "content": "Fibre Pro: 24 months commitment",
+    "tags": ["fibre", "pro", "commitment"],
+    "metadata": {
+      "engagement_months": 24,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "billing_type",
+    "content": "Fibre Pro: Monthly postpaid billing",
+    "tags": ["fibre", "pro", "billing"],
+    "metadata": {
+      "billing_type": "postpaid",
+      "billing_frequency": "monthly",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "eligibility",
+    "content": "Fibre Pro: Eligibility in FTTx zones",
+    "tags": ["fibre", "pro", "eligibility", "zones"],
+    "metadata": {
+      "eligible_zones": "FTTx",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "installation_fee",
+    "content": "Fibre Pro: Free installation",
+    "tags": ["fibre", "pro", "installation", "free"],
+    "metadata": {
+      "installation_fee_tnd": 0,
+      "installation_type": "free",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "voice_tariff",
+    "content": "Fibre Pro: Voice rate 45 millimes tax-included per minute national network",
+    "tags": ["fibre", "pro", "voice", "rate"],
+    "metadata": {
+      "voice_rate_millimes": 45,
+      "voice_rate_tnd": 0.045,
+      "tax_included": true,
+      "coverage": "national_network",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "fixed_ip",
+    "content": "Fibre Pro: Fixed IP included",
+    "tags": ["fibre", "pro", "ip", "fixed"],
+    "metadata": {
+      "fixed_ip": true,
+      "fixed_ip_included": true,
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "consumption_tracking",
+    "content": "Fibre Pro: Consumption tracking via IVR 1136",
+    "tags": ["fibre", "pro", "tracking", "ivr"],
+    "metadata": {
+      "tracking_method": "IVR",
+      "ivr_number": "1136",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "advantage_bandwidth",
+    "content": "Fibre Pro: Double bandwidth at best price",
+    "tags": ["fibre", "pro", "advantages", "bandwidth"],
+    "metadata": {
+      "advantage": "double_bandwidth",
+      "value_proposition": "best_price",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "advantage_unlimited",
+    "content": "Fibre Pro: Unlimited very high-speed connection",
+    "tags": ["fibre", "pro", "advantages", "unlimited"],
+    "metadata": {
+      "connection_type": "unlimited",
+      "speed_category": "very_high_speed",
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "advantage_devices",
+    "content": "Fibre Pro: Services for smartphone or tablet purchase",
+    "tags": ["fibre", "pro", "advantages", "devices"],
+    "metadata": {
+      "additional_services": ["smartphone_purchase", "tablet_purchase"],
+      "segment": "business"
+    }
+  },
+  {
+    "service": "Fibre Pro",
+    "type": "B2B",
+    "chunk_id": "promotion_period",
+    "content": "Fibre Pro: Special promotion valid for 3 months",
+    "tags": ["fibre", "pro", "promotion", "duration"],
+    "metadata": {
+      "promotion_duration_months": 3,
+      "promotion_type": "special",
+      "segment": "business"
+    }
+  }
+]

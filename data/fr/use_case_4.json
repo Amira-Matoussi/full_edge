@@ -1,0 +1,417 @@
+[
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_20_data",
+    "content": "Shahry 20: 7 Go data",
+    "tags": ["shahry", "facture", "data", "20dt"],
+    "metadata": {
+      "plan_name": "Shahry 20",
+      "price_tnd": 20,
+      "data_gb": 7
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_20_voice",
+    "content": "Shahry 20: 60 minutes d'appels incluses",
+    "tags": ["shahry", "facture", "voix", "20dt"],
+    "metadata": {
+      "plan_name": "Shahry 20",
+      "price_tnd": 20,
+      "voice_minutes": 60
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_20_sms",
+    "content": "Shahry 20: 100 SMS inclus",
+    "tags": ["shahry", "facture", "sms", "20dt"],
+    "metadata": {
+      "plan_name": "Shahry 20",
+      "price_tnd": 20,
+      "sms_count": 100
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_20_smartphone_discount",
+    "content": "Shahry 20: Réduction smartphone 180 TND",
+    "tags": ["shahry", "facture", "smartphone", "remise", "20dt"],
+    "metadata": {
+      "plan_name": "Shahry 20",
+      "smartphone_discount_tnd": 180
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_35_data",
+    "content": "Shahry 35: 25 Go data, débit réduit 512 kbps après épuisement",
+    "tags": ["shahry", "facture", "data", "35dt"],
+    "metadata": {
+      "plan_name": "Shahry 35",
+      "price_tnd": 35,
+      "data_gb": 25,
+      "after_quota_speed_kbps": 512
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_35_voice",
+    "content": "Shahry 35: 150 minutes d'appels incluses",
+    "tags": ["shahry", "facture", "voix", "35dt"],
+    "metadata": {
+      "plan_name": "Shahry 35",
+      "price_tnd": 35,
+      "voice_minutes": 150
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_35_sms",
+    "content": "Shahry 35: 100 SMS inclus",
+    "tags": ["shahry", "facture", "sms", "35dt"],
+    "metadata": {
+      "plan_name": "Shahry 35",
+      "price_tnd": 35,
+      "sms_count": 100
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_35_smartphone_discount",
+    "content": "Shahry 35: Réduction smartphone 315 TND",
+    "tags": ["shahry", "facture", "smartphone", "remise", "35dt"],
+    "metadata": {
+      "plan_name": "Shahry 35",
+      "smartphone_discount_tnd": 315
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_55_data",
+    "content": "Shahry 55: 42 Go data, débit réduit 1 Mbps après épuisement",
+    "tags": ["shahry", "facture", "data", "55dt"],
+    "metadata": {
+      "plan_name": "Shahry 55",
+      "price_tnd": 55,
+      "data_gb": 42,
+      "after_quota_speed_mbps": 1
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_55_voice",
+    "content": "Shahry 55: 240 minutes d'appels incluses",
+    "tags": ["shahry", "facture", "voix", "55dt"],
+    "metadata": {
+      "plan_name": "Shahry 55",
+      "price_tnd": 55,
+      "voice_minutes": 240
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_55_sms",
+    "content": "Shahry 55: 200 SMS inclus",
+    "tags": ["shahry", "facture", "sms", "55dt"],
+    "metadata": {
+      "plan_name": "Shahry 55",
+      "price_tnd": 55,
+      "sms_count": 200
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_55_smartphone_discount",
+    "content": "Shahry 55: Réduction smartphone 495 TND",
+    "tags": ["shahry", "facture", "smartphone", "remise", "55dt"],
+    "metadata": {
+      "plan_name": "Shahry 55",
+      "smartphone_discount_tnd": 495
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_110_data",
+    "content": "Shahry 110: 200 Go data, débit réduit 1 Mbps après épuisement",
+    "tags": ["shahry", "facture", "data", "110dt"],
+    "metadata": {
+      "plan_name": "Shahry 110",
+      "price_tnd": 110,
+      "data_gb": 200,
+      "after_quota_speed_mbps": 1
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_110_voice",
+    "content": "Shahry 110: 300 minutes d'appels incluses",
+    "tags": ["shahry", "facture", "voix", "110dt"],
+    "metadata": {
+      "plan_name": "Shahry 110",
+      "price_tnd": 110,
+      "voice_minutes": 300
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_110_sms",
+    "content": "Shahry 110: 200 SMS inclus",
+    "tags": ["shahry", "facture", "sms", "110dt"],
+    "metadata": {
+      "plan_name": "Shahry 110",
+      "price_tnd": 110,
+      "sms_count": 200
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_110_smartphone_discount",
+    "content": "Shahry 110: Réduction smartphone 990 TND",
+    "tags": ["shahry", "facture", "smartphone", "remise", "110dt"],
+    "metadata": {
+      "plan_name": "Shahry 110",
+      "smartphone_discount_tnd": 990
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_160_data",
+    "content": "Shahry 160: 200 Go data, débit réduit 1 Mbps après épuisement",
+    "tags": ["shahry", "facture", "data", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "data_gb": 200,
+      "after_quota_speed_mbps": 1
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_160_voice",
+    "content": "Shahry 160: 360 minutes d'appels incluses",
+    "tags": ["shahry", "facture", "voix", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "voice_minutes": 360
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_160_sms",
+    "content": "Shahry 160: 300 SMS inclus",
+    "tags": ["shahry", "facture", "sms", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "sms_count": 300
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_160_international",
+    "content": "Shahry 160: 30 minutes d'appels internationaux incluses",
+    "tags": ["shahry", "facture", "international", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "international_minutes": 30
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_160_roaming",
+    "content": "Shahry 160: 2 Go data roaming inclus",
+    "tags": ["shahry", "facture", "roaming", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "price_tnd": 160,
+      "roaming_data_gb": 2
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_160_smartphone_discount",
+    "content": "Shahry 160: Réduction smartphone 1440 TND",
+    "tags": ["shahry", "facture", "smartphone", "remise", "160dt"],
+    "metadata": {
+      "plan_name": "Shahry 160",
+      "smartphone_discount_tnd": 1440
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_265_data",
+    "content": "Shahry 265: 250 Go data, débit réduit 1 Mbps après épuisement",
+    "tags": ["shahry", "facture", "data", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "data_gb": 250,
+      "after_quota_speed_mbps": 1
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_265_voice",
+    "content": "Shahry 265: 420 minutes d'appels incluses",
+    "tags": ["shahry", "facture", "voix", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "voice_minutes": 420
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_265_sms",
+    "content": "Shahry 265: 300 SMS inclus",
+    "tags": ["shahry", "facture", "sms", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "sms_count": 300
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_265_international",
+    "content": "Shahry 265: 60 minutes d'appels internationaux incluses",
+    "tags": ["shahry", "facture", "international", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "international_minutes": 60
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_265_roaming",
+    "content": "Shahry 265: 10 Go data roaming inclus",
+    "tags": ["shahry", "facture", "roaming", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "price_tnd": 265,
+      "roaming_data_gb": 10
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "shahry_265_smartphone_discount",
+    "content": "Shahry 265: Réduction smartphone 2385 TND",
+    "tags": ["shahry", "facture", "smartphone", "remise", "265dt"],
+    "metadata": {
+      "plan_name": "Shahry 265",
+      "smartphone_discount_tnd": 2385
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "documents_cin",
+    "content": "Document requis: Copie carte d'identité nationale",
+    "tags": ["documents", "cin", "souscription"],
+    "metadata": {
+      "document_type": "cin",
+      "required": true
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "documents_credit_request",
+    "content": "Document requis: Demande de crédit signée",
+    "tags": ["documents", "crédit", "souscription"],
+    "metadata": {
+      "document_type": "credit_request",
+      "required": true
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "documents_work_certificate",
+    "content": "Document requis: Attestation de travail",
+    "tags": ["documents", "travail", "souscription"],
+    "metadata": {
+      "document_type": "work_certificate",
+      "required": true
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "documents_pay_slips",
+    "content": "Document requis: 3 dernières fiches de paie",
+    "tags": ["documents", "salaire", "souscription"],
+    "metadata": {
+      "document_type": "pay_slips",
+      "quantity": 3,
+      "required": true
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "documents_bank_statements",
+    "content": "Document requis: 3 derniers relevés de compte",
+    "tags": ["documents", "banque", "souscription"],
+    "metadata": {
+      "document_type": "bank_statements",
+      "quantity": 3,
+      "required": true
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "documents_utility_bill",
+    "content": "Document requis: Facture SONEDE ou STEG",
+    "tags": ["documents", "facture", "souscription"],
+    "metadata": {
+      "document_type": "utility_bill",
+      "providers": ["SONEDE", "STEG"],
+      "required": true
+    }
+  },
+  {
+    "service": "Offres Facture",
+    "type": "B2C",
+    "chunk_id": "documents_proforma",
+    "content": "Document requis: Facture pro-forma",
+    "tags": ["documents", "proforma", "souscription"],
+    "metadata": {
+      "document_type": "proforma_invoice",
+      "required": true
+    }
+  }
+]

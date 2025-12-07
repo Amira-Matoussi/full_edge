@@ -1,0 +1,157 @@
+[
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "bonus_percentage",
+    "content": "بونص 100% على جميع عمليات التعبئة",
+    "tags": ["بونص", "تعبئة", "عرض"],
+    "metadata": {
+      "bonus_percentage": 100,
+      "type": "offer"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "bonus_days",
+    "content": "البونص متاح كل يوم اثنين وجمعة",
+    "tags": ["بونص", "أيام", "تقويم"],
+    "metadata": {
+      "bonus_days": ["اثنين", "جمعة"],
+      "frequency": "weekly"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "bonus_minimum_amount",
+    "content": "البونص قابل للتطبيق من 1 دينار تونسي للتعبئة",
+    "tags": ["بونص", "تعبئة", "حد_أدنى"],
+    "metadata": {
+      "minimum_recharge_tnd": 1,
+      "currency": "TND"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "standard_minute_price",
+    "content": "السعر العادي للمكالمات: 90 مليم في الدقيقة",
+    "tags": ["سعر", "دقيقة", "مكالمة", "تكلفة"],
+    "metadata": {
+      "price_millimes": 90,
+      "price_tnd": 0.090,
+      "unit": "minute",
+      "type": "standard"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "bonus_minute_price",
+    "content": "السعر المخفض مع البونص: 45 مليم في الدقيقة",
+    "tags": ["سعر", "دقيقة", "مكالمة", "تكلفة", "بونص"],
+    "metadata": {
+      "price_millimes": 45,
+      "price_tnd": 0.045,
+      "unit": "minute",
+      "type": "reduced_with_bonus"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "sms_price",
+    "content": "سعر الرسائل النصية: 25 مليم لكل رسالة",
+    "tags": ["سعر", "رسالة_نصية", "تكلفة", "رسالة"],
+    "metadata": {
+      "price_millimes": 25,
+      "price_tnd": 0.025,
+      "unit": "sms",
+      "type": "standard"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "offer_validity",
+    "content": "العرض ساري حتى 21 نوفمبر 2025",
+    "tags": ["صلاحية", "تاريخ", "انتهاء"],
+    "metadata": {
+      "validity_end": "2025-11-21",
+      "validity_end_readable": "21 نوفمبر 2025"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "bonus_validity_duration",
+    "content": "كل بونص صالح لمدة 10 أيام",
+    "tags": ["بونص", "صلاحية", "مدة"],
+    "metadata": {
+      "validity_days": 10,
+      "validity_type": "bonus"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "bonus_coverage",
+    "content": "البونص صالح لجميع الشبكات",
+    "tags": ["بونص", "شبكات", "تغطية"],
+    "metadata": {
+      "coverage": "all_operators",
+      "unlimited": true
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "bonus_usage",
+    "content": "البونص قابل للاستخدام للمكالمات والرسائل النصية",
+    "tags": ["بونص", "استخدام", "مكالمات", "رسائل_نصية"],
+    "metadata": {
+      "usage_types": ["calls", "sms"]
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "bonus_tracking_ussd",
+    "content": "تتبع البونص الخاص بك: اطلب 5*100*#",
+    "tags": ["تتبع", "بونص", "ussd", "كود"],
+    "metadata": {
+      "ussd_code": "*100*5#",
+      "action": "track_bonus"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "bonus_tracking_app",
+    "content": "تتبع البونص عبر تطبيق My Ooredoo",
+    "tags": ["تتبع", "بونص", "تطبيق", "موبايل"],
+    "metadata": {
+      "app_name": "My Ooredoo",
+      "action": "track_bonus"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "flash_activation_code",
+    "content": "تفعيل عرض FLASH: اطلب 4*140*#",
+    "tags": ["تفعيل", "فلاش", "ussd", "كود"],
+    "metadata": {
+      "ussd_code": "*140*4#",
+      "offer_name": "FLASH",
+      "action": "activate"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "activation_channels",
+    "content": "العرض متاح عبر جميع قنوات التفعيل",
+    "tags": ["تفعيل", "توفر", "قنوات"],
+    "metadata": {
+      "availability": "all_channels"
+    }
+  },
+  {
+    "service": "عرض بونص أوريدو",
+    "chunk_id": "activation_eligibility",
+    "content": "عرض FLASH متاح للعملاء الجدد والمهاجرين",
+    "tags": ["تفعيل", "أهلية", "فلاش"],
+    "metadata": {
+      "eligible_for": ["new_acquisitions", "migrations"],
+      "default_offer": false
+    }
+  }
+]
