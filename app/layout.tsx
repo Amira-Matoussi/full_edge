@@ -12,11 +12,6 @@ export const metadata: Metadata = {
   title: "Voice AI Assistant",
   description: "A web-based voice-to-voice AI assistant using Whisper and GPT",
   generator: "studio-ai",
-  icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
-  },
 }
 
 export default function RootLayout({
